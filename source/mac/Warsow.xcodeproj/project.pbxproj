@@ -249,7 +249,6 @@
 		289762DD0F682757001563E7 /* q_shared.c in Sources */ = {isa = PBXBuildFile; fileRef = 289762C20F682681001563E7 /* q_shared.c */; };
 		289762E00F682767001563E7 /* q_math.c in Sources */ = {isa = PBXBuildFile; fileRef = 289762C00F682681001563E7 /* q_math.c */; };
 		289762E10F682767001563E7 /* q_shared.c in Sources */ = {isa = PBXBuildFile; fileRef = 289762C20F682681001563E7 /* q_shared.c */; };
-		289762E60F6827B9001563E7 /* q_math.c in Sources */ = {isa = PBXBuildFile; fileRef = 289762C00F682681001563E7 /* q_math.c */; };
 		289762E70F6827B9001563E7 /* q_shared.c in Sources */ = {isa = PBXBuildFile; fileRef = 289762C20F682681001563E7 /* q_shared.c */; };
 		289762ED0F6827E6001563E7 /* q_math.c in Sources */ = {isa = PBXBuildFile; fileRef = 289762C00F682681001563E7 /* q_math.c */; };
 		289762EE0F6827E6001563E7 /* q_shared.c in Sources */ = {isa = PBXBuildFile; fileRef = 289762C20F682681001563E7 /* q_shared.c */; };
@@ -564,7 +563,6 @@
 		28A7207D0F5DEA70006FB1A8 /* Ogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ogg.framework; path = Frameworks/Ogg.framework; sourceTree = "<group>"; };
 		28A7207E0F5DEA70006FB1A8 /* Vorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vorbis.framework; path = Frameworks/Vorbis.framework; sourceTree = "<group>"; };
 		28A720910F5DEA9F006FB1A8 /* qas_angelwrap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = qas_angelwrap.cpp; sourceTree = "<group>"; };
-		28A720920F5DEA9F006FB1A8 /* qas_angelwrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qas_angelwrap.h; sourceTree = "<group>"; };
 		28A720930F5DEA9F006FB1A8 /* qas_local.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qas_local.h; sourceTree = "<group>"; };
 		28A720940F5DEA9F006FB1A8 /* qas_main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = qas_main.cpp; sourceTree = "<group>"; };
 		28A720950F5DEA9F006FB1A8 /* qas_public.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qas_public.h; sourceTree = "<group>"; };
@@ -1236,7 +1234,6 @@
 			isa = PBXGroup;
 			children = (
 				28A720910F5DEA9F006FB1A8 /* qas_angelwrap.cpp */,
-				28A720920F5DEA9F006FB1A8 /* qas_angelwrap.h */,
 				28A720930F5DEA9F006FB1A8 /* qas_local.h */,
 				28A720940F5DEA9F006FB1A8 /* qas_main.cpp */,
 				28A720950F5DEA9F006FB1A8 /* qas_public.h */,
@@ -2500,7 +2497,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				289762E60F6827B9001563E7 /* q_math.c in Sources */,
 				289762E70F6827B9001563E7 /* q_shared.c in Sources */,
 				28A724320F5DF0E6006FB1A8 /* qas_angelwrap.cpp in Sources */,
 				28A724330F5DF0E6006FB1A8 /* qas_main.cpp in Sources */,
