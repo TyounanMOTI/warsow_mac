@@ -399,6 +399,25 @@
 		28D78BBC0F6C7A9D00244A08 /* unix_sys.c in Sources */ = {isa = PBXBuildFile; fileRef = 28A722DD0F5DEAA0006FB1A8 /* unix_sys.c */; };
 		28F120E90F6B13440053E51D /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F120E80F6B13440053E51D /* SDL.framework */; };
 		28F120EA0F6B13440053E51D /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28F120E80F6B13440053E51D /* SDL.framework */; };
+		9D251E2E159F3946001CE46F /* addon_any.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D251E1C159F3946001CE46F /* addon_any.cpp */; };
+		9D251E2F159F3946001CE46F /* addon_any.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D251E1D159F3946001CE46F /* addon_any.h */; };
+		9D251E30159F3946001CE46F /* addon_cvar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D251E1E159F3946001CE46F /* addon_cvar.cpp */; };
+		9D251E31159F3946001CE46F /* addon_cvar.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D251E1F159F3946001CE46F /* addon_cvar.h */; };
+		9D251E32159F3946001CE46F /* addon_dictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D251E20159F3946001CE46F /* addon_dictionary.cpp */; };
+		9D251E33159F3946001CE46F /* addon_dictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D251E21159F3946001CE46F /* addon_dictionary.h */; };
+		9D251E34159F3946001CE46F /* addon_math.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D251E22159F3946001CE46F /* addon_math.cpp */; };
+		9D251E35159F3946001CE46F /* addon_math.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D251E23159F3946001CE46F /* addon_math.h */; };
+		9D251E36159F3946001CE46F /* addon_scriptarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D251E24159F3946001CE46F /* addon_scriptarray.cpp */; };
+		9D251E37159F3946001CE46F /* addon_scriptarray.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D251E25159F3946001CE46F /* addon_scriptarray.h */; };
+		9D251E38159F3946001CE46F /* addon_string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D251E26159F3946001CE46F /* addon_string.cpp */; };
+		9D251E39159F3946001CE46F /* addon_string.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D251E27159F3946001CE46F /* addon_string.h */; };
+		9D251E3A159F3946001CE46F /* addon_stringutils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D251E28159F3946001CE46F /* addon_stringutils.cpp */; };
+		9D251E3B159F3946001CE46F /* addon_stringutils.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D251E29159F3946001CE46F /* addon_stringutils.h */; };
+		9D251E3C159F3946001CE46F /* addon_time.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D251E2A159F3946001CE46F /* addon_time.cpp */; };
+		9D251E3D159F3946001CE46F /* addon_time.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D251E2B159F3946001CE46F /* addon_time.h */; };
+		9D251E3E159F3946001CE46F /* addon_vec3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9D251E2C159F3946001CE46F /* addon_vec3.cpp */; };
+		9D251E3F159F3946001CE46F /* addon_vec3.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D251E2D159F3946001CE46F /* addon_vec3.h */; };
+		9D251E40159F3CE1001CE46F /* q_math.c in Sources */ = {isa = PBXBuildFile; fileRef = 289762C00F682681001563E7 /* q_math.c */; };
 		F32B3CDD126AD0770009B379 /* cg_chat.c in Sources */ = {isa = PBXBuildFile; fileRef = F393AB111237FAE600AF2318 /* cg_chat.c */; };
 		F38247BC1081EB9900BBCFC1 /* ui_chasecam.c in Sources */ = {isa = PBXBuildFile; fileRef = F38247961081EA7300BBCFC1 /* ui_chasecam.c */; };
 		F388D9E9113BE43D0039559F /* libmumblelink.c in Sources */ = {isa = PBXBuildFile; fileRef = F388D9E7113BE43D0039559F /* libmumblelink.c */; };
@@ -1040,6 +1059,24 @@
 		28F121D90F6B1DFA0053E51D /* wswtv_server */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = wswtv_server; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		9D251E1C159F3946001CE46F /* addon_any.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = addon_any.cpp; sourceTree = "<group>"; };
+		9D251E1D159F3946001CE46F /* addon_any.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addon_any.h; sourceTree = "<group>"; };
+		9D251E1E159F3946001CE46F /* addon_cvar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = addon_cvar.cpp; sourceTree = "<group>"; };
+		9D251E1F159F3946001CE46F /* addon_cvar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addon_cvar.h; sourceTree = "<group>"; };
+		9D251E20159F3946001CE46F /* addon_dictionary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = addon_dictionary.cpp; sourceTree = "<group>"; };
+		9D251E21159F3946001CE46F /* addon_dictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addon_dictionary.h; sourceTree = "<group>"; };
+		9D251E22159F3946001CE46F /* addon_math.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = addon_math.cpp; sourceTree = "<group>"; };
+		9D251E23159F3946001CE46F /* addon_math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addon_math.h; sourceTree = "<group>"; };
+		9D251E24159F3946001CE46F /* addon_scriptarray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = addon_scriptarray.cpp; sourceTree = "<group>"; };
+		9D251E25159F3946001CE46F /* addon_scriptarray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addon_scriptarray.h; sourceTree = "<group>"; };
+		9D251E26159F3946001CE46F /* addon_string.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = addon_string.cpp; sourceTree = "<group>"; };
+		9D251E27159F3946001CE46F /* addon_string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addon_string.h; sourceTree = "<group>"; };
+		9D251E28159F3946001CE46F /* addon_stringutils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = addon_stringutils.cpp; sourceTree = "<group>"; };
+		9D251E29159F3946001CE46F /* addon_stringutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addon_stringutils.h; sourceTree = "<group>"; };
+		9D251E2A159F3946001CE46F /* addon_time.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = addon_time.cpp; sourceTree = "<group>"; };
+		9D251E2B159F3946001CE46F /* addon_time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addon_time.h; sourceTree = "<group>"; };
+		9D251E2C159F3946001CE46F /* addon_vec3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = addon_vec3.cpp; sourceTree = "<group>"; };
+		9D251E2D159F3946001CE46F /* addon_vec3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addon_vec3.h; sourceTree = "<group>"; };
 		F38247961081EA7300BBCFC1 /* ui_chasecam.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; path = ui_chasecam.c; sourceTree = "<group>"; };
 		F388D9E7113BE43D0039559F /* libmumblelink.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libmumblelink.c; sourceTree = "<group>"; };
 		F388D9E8113BE43D0039559F /* libmumblelink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libmumblelink.h; sourceTree = "<group>"; };
@@ -1233,6 +1270,7 @@
 		28A7208D0F5DEA9F006FB1A8 /* angelwrap */ = {
 			isa = PBXGroup;
 			children = (
+				9D251E1B159F3946001CE46F /* addon */,
 				28A720910F5DEA9F006FB1A8 /* qas_angelwrap.cpp */,
 				28A720930F5DEA9F006FB1A8 /* qas_local.h */,
 				28A720940F5DEA9F006FB1A8 /* qas_main.cpp */,
@@ -1905,6 +1943,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9D251E1B159F3946001CE46F /* addon */ = {
+			isa = PBXGroup;
+			children = (
+				9D251E1C159F3946001CE46F /* addon_any.cpp */,
+				9D251E1D159F3946001CE46F /* addon_any.h */,
+				9D251E1E159F3946001CE46F /* addon_cvar.cpp */,
+				9D251E1F159F3946001CE46F /* addon_cvar.h */,
+				9D251E20159F3946001CE46F /* addon_dictionary.cpp */,
+				9D251E21159F3946001CE46F /* addon_dictionary.h */,
+				9D251E22159F3946001CE46F /* addon_math.cpp */,
+				9D251E23159F3946001CE46F /* addon_math.h */,
+				9D251E24159F3946001CE46F /* addon_scriptarray.cpp */,
+				9D251E25159F3946001CE46F /* addon_scriptarray.h */,
+				9D251E26159F3946001CE46F /* addon_string.cpp */,
+				9D251E27159F3946001CE46F /* addon_string.h */,
+				9D251E28159F3946001CE46F /* addon_stringutils.cpp */,
+				9D251E29159F3946001CE46F /* addon_stringutils.h */,
+				9D251E2A159F3946001CE46F /* addon_time.cpp */,
+				9D251E2B159F3946001CE46F /* addon_time.h */,
+				9D251E2C159F3946001CE46F /* addon_vec3.cpp */,
+				9D251E2D159F3946001CE46F /* addon_vec3.h */,
+			);
+			path = addon;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1954,6 +2017,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D251E2F159F3946001CE46F /* addon_any.h in Headers */,
+				9D251E31159F3946001CE46F /* addon_cvar.h in Headers */,
+				9D251E33159F3946001CE46F /* addon_dictionary.h in Headers */,
+				9D251E35159F3946001CE46F /* addon_math.h in Headers */,
+				9D251E37159F3946001CE46F /* addon_scriptarray.h in Headers */,
+				9D251E39159F3946001CE46F /* addon_string.h in Headers */,
+				9D251E3B159F3946001CE46F /* addon_stringutils.h in Headers */,
+				9D251E3D159F3946001CE46F /* addon_time.h in Headers */,
+				9D251E3F159F3946001CE46F /* addon_vec3.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2501,6 +2573,16 @@
 				28A724320F5DF0E6006FB1A8 /* qas_angelwrap.cpp in Sources */,
 				28A724330F5DF0E6006FB1A8 /* qas_main.cpp in Sources */,
 				28A724340F5DF0E6006FB1A8 /* qas_syscalls.cpp in Sources */,
+				9D251E2E159F3946001CE46F /* addon_any.cpp in Sources */,
+				9D251E30159F3946001CE46F /* addon_cvar.cpp in Sources */,
+				9D251E32159F3946001CE46F /* addon_dictionary.cpp in Sources */,
+				9D251E34159F3946001CE46F /* addon_math.cpp in Sources */,
+				9D251E36159F3946001CE46F /* addon_scriptarray.cpp in Sources */,
+				9D251E38159F3946001CE46F /* addon_string.cpp in Sources */,
+				9D251E3A159F3946001CE46F /* addon_stringutils.cpp in Sources */,
+				9D251E3C159F3946001CE46F /* addon_time.cpp in Sources */,
+				9D251E3E159F3946001CE46F /* addon_vec3.cpp in Sources */,
+				9D251E40159F3CE1001CE46F /* q_math.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
