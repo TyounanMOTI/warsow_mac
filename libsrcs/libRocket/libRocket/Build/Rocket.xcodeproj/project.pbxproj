@@ -45,7 +45,6 @@
 		6E8B1CF8123AB0CC00C451C8 /* XMLNodeHandlerTextArea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B1C70123AB0CC00C451C8 /* XMLNodeHandlerTextArea.cpp */; };
 		6E8B1DC3123AB7A500C451C8 /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8B1DC2123AB7A500C451C8 /* libfreetype.a */; };
 		6E8B1DE1123ABCA200C451C8 /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8B1DC2123AB7A500C451C8 /* libfreetype.a */; };
-		6E8B1DE2123ABCA200C451C8 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8B1DD1123ABA3A00C451C8 /* libz.dylib */; };
 		6E8B1DE3123ABCC200C451C8 /* BaseXMLParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E9D09261209823B00099E1A /* BaseXMLParser.cpp */; };
 		6E8B1DE4123ABCC200C451C8 /* Box.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28B78120580DA000FAF17 /* Box.cpp */; };
 		6E8B1DE5123ABCC200C451C8 /* Clock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D0312058A45000FAF17 /* Clock.cpp */; };
@@ -360,25 +359,25 @@
 		6EF3BB5612481CD70014316D /* Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB5412481CD70014316D /* Header.h */; };
 		6EF3BB5712481CD70014316D /* Debugger.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB5312481CD70014316D /* Debugger.h */; };
 		6EF3BB5812481CD70014316D /* Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB5412481CD70014316D /* Header.h */; };
-		6EF3BB8012481D140014316D /* Clipboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB5A12481D140014316D /* Clipboard.h */; };
-		6EF3BB8112481D140014316D /* Controls.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB5B12481D140014316D /* Controls.h */; };
-		6EF3BB8212481D140014316D /* DataFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB5C12481D140014316D /* DataFormatter.h */; };
-		6EF3BB8312481D140014316D /* DataQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB5D12481D140014316D /* DataQuery.h */; };
-		6EF3BB8412481D140014316D /* DataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB5E12481D140014316D /* DataSource.h */; };
-		6EF3BB8512481D140014316D /* DataSourceListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB5F12481D140014316D /* DataSourceListener.h */; };
-		6EF3BB8612481D140014316D /* ElementDataGrid.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB6012481D140014316D /* ElementDataGrid.h */; };
-		6EF3BB8712481D140014316D /* ElementDataGridCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB6112481D140014316D /* ElementDataGridCell.h */; };
-		6EF3BB8812481D140014316D /* ElementDataGridExpandButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB6212481D140014316D /* ElementDataGridExpandButton.h */; };
-		6EF3BB8912481D140014316D /* ElementDataGridRow.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB6312481D140014316D /* ElementDataGridRow.h */; };
-		6EF3BB8A12481D140014316D /* ElementForm.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB6412481D140014316D /* ElementForm.h */; };
-		6EF3BB8B12481D140014316D /* ElementFormControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB6512481D140014316D /* ElementFormControl.h */; };
-		6EF3BB8C12481D140014316D /* ElementFormControlDataSelect.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB6612481D140014316D /* ElementFormControlDataSelect.h */; };
-		6EF3BB8D12481D140014316D /* ElementFormControlInput.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB6712481D140014316D /* ElementFormControlInput.h */; };
-		6EF3BB8E12481D140014316D /* ElementFormControlSelect.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB6812481D140014316D /* ElementFormControlSelect.h */; };
-		6EF3BB8F12481D140014316D /* ElementFormControlTextArea.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB6912481D140014316D /* ElementFormControlTextArea.h */; };
-		6EF3BB9012481D140014316D /* ElementTabSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB6A12481D140014316D /* ElementTabSet.h */; };
-		6EF3BB9112481D140014316D /* Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB6B12481D140014316D /* Header.h */; };
-		6EF3BB9212481D140014316D /* SelectOption.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB6C12481D140014316D /* SelectOption.h */; };
+		6EF3BB8012481D140014316D /* Clipboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB5A12481D140014316D /* Clipboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BB8112481D140014316D /* Controls.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB5B12481D140014316D /* Controls.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BB8212481D140014316D /* DataFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB5C12481D140014316D /* DataFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BB8312481D140014316D /* DataQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB5D12481D140014316D /* DataQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BB8412481D140014316D /* DataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB5E12481D140014316D /* DataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BB8512481D140014316D /* DataSourceListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB5F12481D140014316D /* DataSourceListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BB8612481D140014316D /* ElementDataGrid.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB6012481D140014316D /* ElementDataGrid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BB8712481D140014316D /* ElementDataGridCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB6112481D140014316D /* ElementDataGridCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BB8812481D140014316D /* ElementDataGridExpandButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB6212481D140014316D /* ElementDataGridExpandButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BB8912481D140014316D /* ElementDataGridRow.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB6312481D140014316D /* ElementDataGridRow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BB8A12481D140014316D /* ElementForm.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB6412481D140014316D /* ElementForm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BB8B12481D140014316D /* ElementFormControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB6512481D140014316D /* ElementFormControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BB8C12481D140014316D /* ElementFormControlDataSelect.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB6612481D140014316D /* ElementFormControlDataSelect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BB8D12481D140014316D /* ElementFormControlInput.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB6712481D140014316D /* ElementFormControlInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BB8E12481D140014316D /* ElementFormControlSelect.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB6812481D140014316D /* ElementFormControlSelect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BB8F12481D140014316D /* ElementFormControlTextArea.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB6912481D140014316D /* ElementFormControlTextArea.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BB9012481D140014316D /* ElementTabSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB6A12481D140014316D /* ElementTabSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BB9112481D140014316D /* Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB6B12481D140014316D /* Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BB9212481D140014316D /* SelectOption.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BB6C12481D140014316D /* SelectOption.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EF3BC0512481DD40014316D /* Colour.inl in Resources */ = {isa = PBXBuildFile; fileRef = 6EF3BBAC12481DD40014316D /* Colour.inl */; };
 		6EF3BC0E12481DD40014316D /* Dictionary.inl in Resources */ = {isa = PBXBuildFile; fileRef = 6EF3BBB512481DD40014316D /* Dictionary.inl */; };
 		6EF3BC1012481DD40014316D /* Element.inl in Resources */ = {isa = PBXBuildFile; fileRef = 6EF3BBB712481DD40014316D /* Element.inl */; };
@@ -388,81 +387,259 @@
 		6EF3BC4F12481DD40014316D /* TypeConverter.inl in Resources */ = {isa = PBXBuildFile; fileRef = 6EF3BBF712481DD40014316D /* TypeConverter.inl */; };
 		6EF3BC5312481DD40014316D /* Variant.inl in Resources */ = {isa = PBXBuildFile; fileRef = 6EF3BBFB12481DD40014316D /* Variant.inl */; };
 		6EF3BC5512481DD40014316D /* Vector2.inl in Resources */ = {isa = PBXBuildFile; fileRef = 6EF3BBFD12481DD40014316D /* Vector2.inl */; };
-		6EF3BCA912481DD40014316D /* BaseXMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBA912481DD40014316D /* BaseXMLParser.h */; };
-		6EF3BCAA12481DD40014316D /* Box.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBAA12481DD40014316D /* Box.h */; };
-		6EF3BCAB12481DD40014316D /* Colour.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBAB12481DD40014316D /* Colour.h */; };
+		6EF3BCA912481DD40014316D /* BaseXMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBA912481DD40014316D /* BaseXMLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCAA12481DD40014316D /* Box.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBAA12481DD40014316D /* Box.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCAB12481DD40014316D /* Colour.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBAB12481DD40014316D /* Colour.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EF3BCAC12481DD40014316D /* Colour.inl in Resources */ = {isa = PBXBuildFile; fileRef = 6EF3BBAC12481DD40014316D /* Colour.inl */; };
-		6EF3BCAD12481DD40014316D /* Context.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBAD12481DD40014316D /* Context.h */; };
-		6EF3BCAE12481DD40014316D /* ContextInstancer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBAE12481DD40014316D /* ContextInstancer.h */; };
-		6EF3BCAF12481DD40014316D /* ConvolutionFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBAF12481DD40014316D /* ConvolutionFilter.h */; };
-		6EF3BCB012481DD40014316D /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBB012481DD40014316D /* Core.h */; };
-		6EF3BCB112481DD40014316D /* Debug.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBB112481DD40014316D /* Debug.h */; };
-		6EF3BCB212481DD40014316D /* Decorator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBB212481DD40014316D /* Decorator.h */; };
-		6EF3BCB312481DD40014316D /* DecoratorInstancer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBB312481DD40014316D /* DecoratorInstancer.h */; };
-		6EF3BCB412481DD40014316D /* Dictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBB412481DD40014316D /* Dictionary.h */; };
+		6EF3BCAD12481DD40014316D /* Context.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBAD12481DD40014316D /* Context.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCAE12481DD40014316D /* ContextInstancer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBAE12481DD40014316D /* ContextInstancer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCAF12481DD40014316D /* ConvolutionFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBAF12481DD40014316D /* ConvolutionFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCB012481DD40014316D /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBB012481DD40014316D /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCB112481DD40014316D /* Debug.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBB112481DD40014316D /* Debug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCB212481DD40014316D /* Decorator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBB212481DD40014316D /* Decorator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCB312481DD40014316D /* DecoratorInstancer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBB312481DD40014316D /* DecoratorInstancer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCB412481DD40014316D /* Dictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBB412481DD40014316D /* Dictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EF3BCB512481DD40014316D /* Dictionary.inl in Resources */ = {isa = PBXBuildFile; fileRef = 6EF3BBB512481DD40014316D /* Dictionary.inl */; };
-		6EF3BCB612481DD40014316D /* Element.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBB612481DD40014316D /* Element.h */; };
+		6EF3BCB612481DD40014316D /* Element.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBB612481DD40014316D /* Element.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EF3BCB712481DD40014316D /* Element.inl in Resources */ = {isa = PBXBuildFile; fileRef = 6EF3BBB712481DD40014316D /* Element.inl */; };
-		6EF3BCB812481DD40014316D /* ElementDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBB812481DD40014316D /* ElementDocument.h */; };
-		6EF3BCB912481DD40014316D /* ElementInstancer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBB912481DD40014316D /* ElementInstancer.h */; };
-		6EF3BCBA12481DD40014316D /* ElementInstancerGeneric.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBBA12481DD40014316D /* ElementInstancerGeneric.h */; };
+		6EF3BCB812481DD40014316D /* ElementDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBB812481DD40014316D /* ElementDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCB912481DD40014316D /* ElementInstancer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBB912481DD40014316D /* ElementInstancer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCBA12481DD40014316D /* ElementInstancerGeneric.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBBA12481DD40014316D /* ElementInstancerGeneric.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EF3BCBB12481DD40014316D /* ElementInstancerGeneric.inl in Resources */ = {isa = PBXBuildFile; fileRef = 6EF3BBBB12481DD40014316D /* ElementInstancerGeneric.inl */; };
-		6EF3BCBC12481DD40014316D /* ElementReference.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBBC12481DD40014316D /* ElementReference.h */; };
-		6EF3BCBD12481DD40014316D /* ElementScroll.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBBD12481DD40014316D /* ElementScroll.h */; };
-		6EF3BCBE12481DD40014316D /* ElementText.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBBE12481DD40014316D /* ElementText.h */; };
-		6EF3BCBF12481DD40014316D /* ElementUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBBF12481DD40014316D /* ElementUtilities.h */; };
-		6EF3BCC012481DD40014316D /* Event.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBC012481DD40014316D /* Event.h */; };
-		6EF3BCC112481DD40014316D /* EventInstancer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBC112481DD40014316D /* EventInstancer.h */; };
-		6EF3BCC212481DD40014316D /* EventListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBC212481DD40014316D /* EventListener.h */; };
-		6EF3BCC312481DD40014316D /* EventListenerInstancer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBC312481DD40014316D /* EventListenerInstancer.h */; };
-		6EF3BCC412481DD40014316D /* Factory.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBC412481DD40014316D /* Factory.h */; };
-		6EF3BCC512481DD40014316D /* FileInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBC512481DD40014316D /* FileInterface.h */; };
-		6EF3BCC612481DD40014316D /* Font.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBC612481DD40014316D /* Font.h */; };
-		6EF3BCC712481DD40014316D /* FontDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBC712481DD40014316D /* FontDatabase.h */; };
-		6EF3BCC812481DD40014316D /* FontEffect.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBC812481DD40014316D /* FontEffect.h */; };
-		6EF3BCC912481DD40014316D /* FontEffectInstancer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBC912481DD40014316D /* FontEffectInstancer.h */; };
-		6EF3BCCA12481DD40014316D /* FontGlyph.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBCA12481DD40014316D /* FontGlyph.h */; };
-		6EF3BCCB12481DD40014316D /* Geometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBCB12481DD40014316D /* Geometry.h */; };
-		6EF3BCCC12481DD40014316D /* GeometryUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBCC12481DD40014316D /* GeometryUtilities.h */; };
-		6EF3BCCD12481DD40014316D /* Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBCD12481DD40014316D /* Header.h */; };
-		6EF3BCCE12481DD40014316D /* Input.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBCE12481DD40014316D /* Input.h */; };
-		6EF3BCCF12481DD40014316D /* Log.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBCF12481DD40014316D /* Log.h */; };
-		6EF3BCD012481DD40014316D /* Math.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBD012481DD40014316D /* Math.h */; };
-		6EF3BCD112481DD40014316D /* MathTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBD112481DD40014316D /* MathTypes.h */; };
-		6EF3BCD212481DD40014316D /* Platform.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBD212481DD40014316D /* Platform.h */; };
-		6EF3BCD312481DD40014316D /* Plugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBD312481DD40014316D /* Plugin.h */; };
+		6EF3BCBC12481DD40014316D /* ElementReference.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBBC12481DD40014316D /* ElementReference.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCBD12481DD40014316D /* ElementScroll.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBBD12481DD40014316D /* ElementScroll.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCBE12481DD40014316D /* ElementText.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBBE12481DD40014316D /* ElementText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCBF12481DD40014316D /* ElementUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBBF12481DD40014316D /* ElementUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCC012481DD40014316D /* Event.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBC012481DD40014316D /* Event.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCC112481DD40014316D /* EventInstancer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBC112481DD40014316D /* EventInstancer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCC212481DD40014316D /* EventListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBC212481DD40014316D /* EventListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCC312481DD40014316D /* EventListenerInstancer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBC312481DD40014316D /* EventListenerInstancer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCC412481DD40014316D /* Factory.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBC412481DD40014316D /* Factory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCC512481DD40014316D /* FileInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBC512481DD40014316D /* FileInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCC612481DD40014316D /* Font.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBC612481DD40014316D /* Font.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCC712481DD40014316D /* FontDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBC712481DD40014316D /* FontDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCC812481DD40014316D /* FontEffect.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBC812481DD40014316D /* FontEffect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCC912481DD40014316D /* FontEffectInstancer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBC912481DD40014316D /* FontEffectInstancer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCCA12481DD40014316D /* FontGlyph.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBCA12481DD40014316D /* FontGlyph.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCCB12481DD40014316D /* Geometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBCB12481DD40014316D /* Geometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCCC12481DD40014316D /* GeometryUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBCC12481DD40014316D /* GeometryUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCCD12481DD40014316D /* Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBCD12481DD40014316D /* Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCCE12481DD40014316D /* Input.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBCE12481DD40014316D /* Input.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCCF12481DD40014316D /* Log.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBCF12481DD40014316D /* Log.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCD012481DD40014316D /* Math.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBD012481DD40014316D /* Math.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCD112481DD40014316D /* MathTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBD112481DD40014316D /* MathTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCD212481DD40014316D /* Platform.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBD212481DD40014316D /* Platform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCD312481DD40014316D /* Plugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBD312481DD40014316D /* Plugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EF3BCD512481DD40014316D /* Pool.inl in Resources */ = {isa = PBXBuildFile; fileRef = 6EF3BBD512481DD40014316D /* Pool.inl */; };
-		6EF3BCD612481DD40014316D /* Property.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBD612481DD40014316D /* Property.h */; };
-		6EF3BCD712481DD40014316D /* PropertyDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBD712481DD40014316D /* PropertyDefinition.h */; };
-		6EF3BCD812481DD40014316D /* PropertyDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBD812481DD40014316D /* PropertyDictionary.h */; };
-		6EF3BCD912481DD40014316D /* PropertyParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBD912481DD40014316D /* PropertyParser.h */; };
-		6EF3BCDA12481DD40014316D /* PropertySpecification.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBDA12481DD40014316D /* PropertySpecification.h */; };
-		6EF3BCE612481DD40014316D /* ReferenceCountable.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBE712481DD40014316D /* ReferenceCountable.h */; };
-		6EF3BCE712481DD40014316D /* RenderInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBE812481DD40014316D /* RenderInterface.h */; };
-		6EF3BCE812481DD40014316D /* ScriptInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBE912481DD40014316D /* ScriptInterface.h */; };
-		6EF3BCE912481DD40014316D /* Stream.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBEA12481DD40014316D /* Stream.h */; };
-		6EF3BCEA12481DD40014316D /* StreamMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBEB12481DD40014316D /* StreamMemory.h */; };
-		6EF3BCEB12481DD40014316D /* String.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBEC12481DD40014316D /* String.h */; };
-		6EF3BCEC12481DD40014316D /* StringBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBED12481DD40014316D /* StringBase.h */; };
+		6EF3BCD612481DD40014316D /* Property.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBD612481DD40014316D /* Property.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCD712481DD40014316D /* PropertyDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBD712481DD40014316D /* PropertyDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCD812481DD40014316D /* PropertyDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBD812481DD40014316D /* PropertyDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCD912481DD40014316D /* PropertyParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBD912481DD40014316D /* PropertyParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCDA12481DD40014316D /* PropertySpecification.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBDA12481DD40014316D /* PropertySpecification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCE612481DD40014316D /* ReferenceCountable.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBE712481DD40014316D /* ReferenceCountable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCE712481DD40014316D /* RenderInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBE812481DD40014316D /* RenderInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCE812481DD40014316D /* ScriptInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBE912481DD40014316D /* ScriptInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCE912481DD40014316D /* Stream.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBEA12481DD40014316D /* Stream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCEA12481DD40014316D /* StreamMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBEB12481DD40014316D /* StreamMemory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCEB12481DD40014316D /* String.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBEC12481DD40014316D /* String.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCEC12481DD40014316D /* StringBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBED12481DD40014316D /* StringBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EF3BCED12481DD40014316D /* StringBase.inl in Resources */ = {isa = PBXBuildFile; fileRef = 6EF3BBEE12481DD40014316D /* StringBase.inl */; };
-		6EF3BCEF12481DD40014316D /* StringUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBF012481DD40014316D /* StringUtilities.h */; };
-		6EF3BCF012481DD40014316D /* StyleSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBF112481DD40014316D /* StyleSheet.h */; };
-		6EF3BCF112481DD40014316D /* StyleSheetKeywords.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBF212481DD40014316D /* StyleSheetKeywords.h */; };
-		6EF3BCF212481DD40014316D /* StyleSheetSpecification.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBF312481DD40014316D /* StyleSheetSpecification.h */; };
-		6EF3BCF312481DD40014316D /* SystemInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBF412481DD40014316D /* SystemInterface.h */; };
-		6EF3BCF412481DD40014316D /* Texture.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBF512481DD40014316D /* Texture.h */; };
-		6EF3BCF512481DD40014316D /* TypeConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBF612481DD40014316D /* TypeConverter.h */; };
+		6EF3BCEF12481DD40014316D /* StringUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBF012481DD40014316D /* StringUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCF012481DD40014316D /* StyleSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBF112481DD40014316D /* StyleSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCF112481DD40014316D /* StyleSheetKeywords.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBF212481DD40014316D /* StyleSheetKeywords.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCF212481DD40014316D /* StyleSheetSpecification.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBF312481DD40014316D /* StyleSheetSpecification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCF312481DD40014316D /* SystemInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBF412481DD40014316D /* SystemInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCF412481DD40014316D /* Texture.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBF512481DD40014316D /* Texture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCF512481DD40014316D /* TypeConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBF612481DD40014316D /* TypeConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EF3BCF612481DD40014316D /* TypeConverter.inl in Resources */ = {isa = PBXBuildFile; fileRef = 6EF3BBF712481DD40014316D /* TypeConverter.inl */; };
-		6EF3BCF712481DD40014316D /* Types.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBF812481DD40014316D /* Types.h */; };
-		6EF3BCF812481DD40014316D /* URL.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBF912481DD40014316D /* URL.h */; };
-		6EF3BCF912481DD40014316D /* Variant.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBFA12481DD40014316D /* Variant.h */; };
+		6EF3BCF712481DD40014316D /* Types.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBF812481DD40014316D /* Types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCF812481DD40014316D /* URL.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBF912481DD40014316D /* URL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCF912481DD40014316D /* Variant.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBFA12481DD40014316D /* Variant.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EF3BCFA12481DD40014316D /* Variant.inl in Resources */ = {isa = PBXBuildFile; fileRef = 6EF3BBFB12481DD40014316D /* Variant.inl */; };
-		6EF3BCFB12481DD40014316D /* Vector2.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBFC12481DD40014316D /* Vector2.h */; };
+		6EF3BCFB12481DD40014316D /* Vector2.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBFC12481DD40014316D /* Vector2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EF3BCFC12481DD40014316D /* Vector2.inl in Resources */ = {isa = PBXBuildFile; fileRef = 6EF3BBFD12481DD40014316D /* Vector2.inl */; };
-		6EF3BCFD12481DD40014316D /* Vertex.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBFE12481DD40014316D /* Vertex.h */; };
-		6EF3BCFE12481DD40014316D /* WString.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBFF12481DD40014316D /* WString.h */; };
-		6EF3BCFF12481DD40014316D /* XMLNodeHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BC0012481DD40014316D /* XMLNodeHandler.h */; };
-		6EF3BD0012481DD40014316D /* XMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BC0112481DD40014316D /* XMLParser.h */; };
+		6EF3BCFD12481DD40014316D /* Vertex.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBFE12481DD40014316D /* Vertex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCFE12481DD40014316D /* WString.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BBFF12481DD40014316D /* WString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BCFF12481DD40014316D /* XMLNodeHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BC0012481DD40014316D /* XMLNodeHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EF3BD0012481DD40014316D /* XMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EF3BC0112481DD40014316D /* XMLParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D251E61159F6029001CE46F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D251E60159F6029001CE46F /* libz.dylib */; };
+		9D251E63159F6046001CE46F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D251E62159F6046001CE46F /* libz.dylib */; };
+		9D251E65159F6308001CE46F /* libbz2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D251E64159F6308001CE46F /* libbz2.dylib */; };
+		9D25211B159F7207001CE46F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D252119159F7207001CE46F /* InfoPlist.strings */; };
+		9D252123159F72AB001CE46F /* BaseXMLParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E9D09261209823B00099E1A /* BaseXMLParser.cpp */; };
+		9D252124159F72AB001CE46F /* Box.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28B78120580DA000FAF17 /* Box.cpp */; };
+		9D252125159F72AB001CE46F /* Clock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D0312058A45000FAF17 /* Clock.cpp */; };
+		9D252126159F72AB001CE46F /* Context.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D0512058A45000FAF17 /* Context.cpp */; };
+		9D252127159F72AB001CE46F /* ContextInstancer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D0612058A45000FAF17 /* ContextInstancer.cpp */; };
+		9D252128159F72AB001CE46F /* ContextInstancerDefault.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D0712058A45000FAF17 /* ContextInstancerDefault.cpp */; };
+		9D252129159F72AB001CE46F /* ConvolutionFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D0912058A45000FAF17 /* ConvolutionFilter.cpp */; };
+		9D25212A159F72AB001CE46F /* Core.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D0A12058A45000FAF17 /* Core.cpp */; };
+		9D25212B159F72AB001CE46F /* Decorator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D0C12058A45000FAF17 /* Decorator.cpp */; };
+		9D25212C159F72AB001CE46F /* DecoratorInstancer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D0D12058A45000FAF17 /* DecoratorInstancer.cpp */; };
+		9D25212D159F72AB001CE46F /* DecoratorNone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D0E12058A45000FAF17 /* DecoratorNone.cpp */; };
+		9D25212E159F72AB001CE46F /* DecoratorNoneInstancer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D1012058A45000FAF17 /* DecoratorNoneInstancer.cpp */; };
+		9D25212F159F72AB001CE46F /* DecoratorTiled.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D1212058A45000FAF17 /* DecoratorTiled.cpp */; };
+		9D252130159F72AB001CE46F /* DecoratorTiledBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D1412058A45000FAF17 /* DecoratorTiledBox.cpp */; };
+		9D252131159F72AB001CE46F /* DecoratorTiledBoxInstancer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D1612058A45000FAF17 /* DecoratorTiledBoxInstancer.cpp */; };
+		9D252132159F72AB001CE46F /* DecoratorTiledHorizontal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D1812058A45000FAF17 /* DecoratorTiledHorizontal.cpp */; };
+		9D252133159F72AB001CE46F /* DecoratorTiledHorizontalInstancer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D1A12058A45000FAF17 /* DecoratorTiledHorizontalInstancer.cpp */; };
+		9D252134159F72AB001CE46F /* DecoratorTiledImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D1C12058A45000FAF17 /* DecoratorTiledImage.cpp */; };
+		9D252135159F72AB001CE46F /* DecoratorTiledImageInstancer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D1E12058A45000FAF17 /* DecoratorTiledImageInstancer.cpp */; };
+		9D252136159F72AB001CE46F /* DecoratorTiledInstancer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D2012058A45000FAF17 /* DecoratorTiledInstancer.cpp */; };
+		9D252137159F72AB001CE46F /* DecoratorTiledVertical.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D2212058A45000FAF17 /* DecoratorTiledVertical.cpp */; };
+		9D252138159F72AB001CE46F /* DecoratorTiledVerticalInstancer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D2412058A45000FAF17 /* DecoratorTiledVerticalInstancer.cpp */; };
+		9D252139159F72AB001CE46F /* Dictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E9D09271209823B00099E1A /* Dictionary.cpp */; };
+		9D25213A159F72AB001CE46F /* DocumentHeader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D2612058A45000FAF17 /* DocumentHeader.cpp */; };
+		9D25213B159F72AB001CE46F /* Element.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D2812058A45000FAF17 /* Element.cpp */; };
+		9D25213C159F72AB001CE46F /* ElementBackground.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D2912058A45000FAF17 /* ElementBackground.cpp */; };
+		9D25213D159F72AB001CE46F /* ElementBorder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D2B12058A45000FAF17 /* ElementBorder.cpp */; };
+		9D25213E159F72AB001CE46F /* ElementDecoration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D2D12058A45000FAF17 /* ElementDecoration.cpp */; };
+		9D25213F159F72AB001CE46F /* ElementDefinition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D2F12058A45000FAF17 /* ElementDefinition.cpp */; };
+		9D252140159F72AB001CE46F /* ElementDocument.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D3112058A45000FAF17 /* ElementDocument.cpp */; };
+		9D252141159F72AB001CE46F /* ElementHandle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D3212058A45000FAF17 /* ElementHandle.cpp */; };
+		9D252142159F72AB001CE46F /* ElementImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D3412058A45000FAF17 /* ElementImage.cpp */; };
+		9D252143159F72AB001CE46F /* ElementInstancer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D3612058A45000FAF17 /* ElementInstancer.cpp */; };
+		9D252144159F72AB001CE46F /* ElementReference.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D3712058A45000FAF17 /* ElementReference.cpp */; };
+		9D252145159F72AB001CE46F /* ElementScroll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D3812058A45000FAF17 /* ElementScroll.cpp */; };
+		9D252146159F72AB001CE46F /* ElementStyle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D3912058A45000FAF17 /* ElementStyle.cpp */; };
+		9D252147159F72AB001CE46F /* ElementText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D3B12058A45000FAF17 /* ElementText.cpp */; };
+		9D252148159F72AB001CE46F /* ElementTextDefault.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D3C12058A45000FAF17 /* ElementTextDefault.cpp */; };
+		9D252149159F72AB001CE46F /* ElementUtilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D3E12058A45000FAF17 /* ElementUtilities.cpp */; };
+		9D25214A159F72AB001CE46F /* Event.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D3F12058A45000FAF17 /* Event.cpp */; };
+		9D25214B159F72AB001CE46F /* EventDispatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D4012058A45000FAF17 /* EventDispatcher.cpp */; };
+		9D25214C159F72AB001CE46F /* EventInstancer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D4212058A45000FAF17 /* EventInstancer.cpp */; };
+		9D25214D159F72AB001CE46F /* EventInstancerDefault.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D4312058A45000FAF17 /* EventInstancerDefault.cpp */; };
+		9D25214E159F72AB001CE46F /* EventListenerInstancer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D4612058A45000FAF17 /* EventListenerInstancer.cpp */; };
+		9D25214F159F72AB001CE46F /* Factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D4712058A45000FAF17 /* Factory.cpp */; };
+		9D252150159F72AB001CE46F /* FileInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D4812058A45000FAF17 /* FileInterface.cpp */; };
+		9D252151159F72AB001CE46F /* FileInterfaceDefault.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D4912058A45000FAF17 /* FileInterfaceDefault.cpp */; };
+		9D252152159F72AB001CE46F /* FontDatabase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D4B12058A45000FAF17 /* FontDatabase.cpp */; };
+		9D252153159F72AB001CE46F /* FontEffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D4C12058A45000FAF17 /* FontEffect.cpp */; };
+		9D252154159F72AB001CE46F /* FontEffectInstancer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D4D12058A45000FAF17 /* FontEffectInstancer.cpp */; };
+		9D252155159F72AB001CE46F /* FontEffectNone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D4E12058A45000FAF17 /* FontEffectNone.cpp */; };
+		9D252156159F72AB001CE46F /* FontEffectNoneInstancer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D5012058A45000FAF17 /* FontEffectNoneInstancer.cpp */; };
+		9D252157159F72AB001CE46F /* FontEffectOutline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D5212058A45000FAF17 /* FontEffectOutline.cpp */; };
+		9D252158159F72AB001CE46F /* FontEffectOutlineInstancer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D5412058A45000FAF17 /* FontEffectOutlineInstancer.cpp */; };
+		9D252159159F72AB001CE46F /* FontEffectShadow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D5612058A45000FAF17 /* FontEffectShadow.cpp */; };
+		9D25215A159F72AB001CE46F /* FontEffectShadowInstancer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D5812058A45000FAF17 /* FontEffectShadowInstancer.cpp */; };
+		9D25215B159F72AB001CE46F /* FontFace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D5A12058A45000FAF17 /* FontFace.cpp */; };
+		9D25215C159F72AB001CE46F /* FontFaceHandle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D5C12058A45000FAF17 /* FontFaceHandle.cpp */; };
+		9D25215D159F72AB001CE46F /* FontFaceLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D5E12058A45000FAF17 /* FontFaceLayer.cpp */; };
+		9D25215E159F72AB001CE46F /* FontFamily.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D6012058A45000FAF17 /* FontFamily.cpp */; };
+		9D25215F159F72AB001CE46F /* Geometry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D6212058A45000FAF17 /* Geometry.cpp */; };
+		9D252160159F72AB001CE46F /* GeometryDatabase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D6312058A45000FAF17 /* GeometryDatabase.cpp */; };
+		9D252161159F72AB001CE46F /* GeometryUtilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D6512058A45000FAF17 /* GeometryUtilities.cpp */; };
+		9D252162159F72AB001CE46F /* LayoutBlockBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D6612058A45000FAF17 /* LayoutBlockBox.cpp */; };
+		9D252163159F72AB001CE46F /* LayoutBlockBoxSpace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D6812058A45000FAF17 /* LayoutBlockBoxSpace.cpp */; };
+		9D252164159F72AB001CE46F /* LayoutEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D6A12058A45000FAF17 /* LayoutEngine.cpp */; };
+		9D252165159F72AB001CE46F /* LayoutInlineBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D6C12058A45000FAF17 /* LayoutInlineBox.cpp */; };
+		9D252166159F72AB001CE46F /* LayoutInlineBoxText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D6E12058A45000FAF17 /* LayoutInlineBoxText.cpp */; };
+		9D252167159F72AB001CE46F /* LayoutLineBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D7012058A45000FAF17 /* LayoutLineBox.cpp */; };
+		9D252168159F72AB001CE46F /* Log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D7212058A45000FAF17 /* Log.cpp */; };
+		9D252169159F72AB001CE46F /* Math.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E9D09771209858B00099E1A /* Math.cpp */; };
+		9D25216A159F72AB001CE46F /* Plugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D7312058A45000FAF17 /* Plugin.cpp */; };
+		9D25216B159F72AB001CE46F /* PluginRegistry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D7412058A45000FAF17 /* PluginRegistry.cpp */; };
+		9D25216C159F72AB001CE46F /* Property.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D7812058A45000FAF17 /* Property.cpp */; };
+		9D25216D159F72AB001CE46F /* PropertyDefinition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D7912058A45000FAF17 /* PropertyDefinition.cpp */; };
+		9D25216E159F72AB001CE46F /* PropertyDictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D7A12058A45000FAF17 /* PropertyDictionary.cpp */; };
+		9D25216F159F72AB001CE46F /* PropertyParserColour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D7B12058A45000FAF17 /* PropertyParserColour.cpp */; };
+		9D252170159F72AB001CE46F /* PropertyParserKeyword.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D7D12058A45000FAF17 /* PropertyParserKeyword.cpp */; };
+		9D252171159F72AB001CE46F /* PropertyParserNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D7F12058A45000FAF17 /* PropertyParserNumber.cpp */; };
+		9D252172159F72AB001CE46F /* PropertyParserString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D8112058A45000FAF17 /* PropertyParserString.cpp */; };
+		9D252173159F72AB001CE46F /* PropertySpecification.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28D8412058A45000FAF17 /* PropertySpecification.cpp */; };
+		9D252174159F72AB001CE46F /* ReferenceCountable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E9D0987120986B600099E1A /* ReferenceCountable.cpp */; };
+		9D252175159F72AB001CE46F /* RenderInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28DE212058A45000FAF17 /* RenderInterface.cpp */; };
+		9D252176159F72AB001CE46F /* Stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E9D09281209823B00099E1A /* Stream.cpp */; };
+		9D252177159F72AB001CE46F /* StreamFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28DE312058A45000FAF17 /* StreamFile.cpp */; };
+		9D252178159F72AB001CE46F /* StreamMemory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E9D09291209823B00099E1A /* StreamMemory.cpp */; };
+		9D252179159F72AB001CE46F /* String.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E9D099B1209878A00099E1A /* String.cpp */; };
+		9D25217A159F72AB001CE46F /* StringCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28DE612058A45000FAF17 /* StringCache.cpp */; };
+		9D25217B159F72AB001CE46F /* StringUtilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E9D092A1209823B00099E1A /* StringUtilities.cpp */; };
+		9D25217C159F72AB001CE46F /* StyleSheet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28DE812058A45000FAF17 /* StyleSheet.cpp */; };
+		9D25217D159F72AB001CE46F /* StyleSheetFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28DE912058A45000FAF17 /* StyleSheetFactory.cpp */; };
+		9D25217E159F72AB001CE46F /* StyleSheetNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28DEB12058A45000FAF17 /* StyleSheetNode.cpp */; };
+		9D25217F159F72AB001CE46F /* StyleSheetNodeSelector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28DED12058A45000FAF17 /* StyleSheetNodeSelector.cpp */; };
+		9D252180159F72AB001CE46F /* StyleSheetNodeSelectorEmpty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28DEF12058A45000FAF17 /* StyleSheetNodeSelectorEmpty.cpp */; };
+		9D252181159F72AB001CE46F /* StyleSheetNodeSelectorFirstChild.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28DF112058A45000FAF17 /* StyleSheetNodeSelectorFirstChild.cpp */; };
+		9D252182159F72AB001CE46F /* StyleSheetNodeSelectorFirstOfType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28DF312058A45000FAF17 /* StyleSheetNodeSelectorFirstOfType.cpp */; };
+		9D252183159F72AB001CE46F /* StyleSheetNodeSelectorLastChild.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28DF512058A45000FAF17 /* StyleSheetNodeSelectorLastChild.cpp */; };
+		9D252184159F72AB001CE46F /* StyleSheetNodeSelectorLastOfType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28DF712058A45000FAF17 /* StyleSheetNodeSelectorLastOfType.cpp */; };
+		9D252185159F72AB001CE46F /* StyleSheetNodeSelectorNthChild.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28DF912058A45000FAF17 /* StyleSheetNodeSelectorNthChild.cpp */; };
+		9D252186159F72AB001CE46F /* StyleSheetNodeSelectorNthLastChild.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28DFB12058A45000FAF17 /* StyleSheetNodeSelectorNthLastChild.cpp */; };
+		9D252187159F72AB001CE46F /* StyleSheetNodeSelectorNthLastOfType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28DFD12058A45000FAF17 /* StyleSheetNodeSelectorNthLastOfType.cpp */; };
+		9D252188159F72AB001CE46F /* StyleSheetNodeSelectorNthOfType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28DFF12058A45000FAF17 /* StyleSheetNodeSelectorNthOfType.cpp */; };
+		9D252189159F72AB001CE46F /* StyleSheetNodeSelectorOnlyChild.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28E0112058A45000FAF17 /* StyleSheetNodeSelectorOnlyChild.cpp */; };
+		9D25218A159F72AB001CE46F /* StyleSheetNodeSelectorOnlyOfType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28E0312058A45000FAF17 /* StyleSheetNodeSelectorOnlyOfType.cpp */; };
+		9D25218B159F72AB001CE46F /* StyleSheetParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28E0512058A45000FAF17 /* StyleSheetParser.cpp */; };
+		9D25218C159F72AB001CE46F /* StyleSheetSpecification.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28E0712058A45000FAF17 /* StyleSheetSpecification.cpp */; };
+		9D25218D159F72AB001CE46F /* SystemInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28E0812058A45000FAF17 /* SystemInterface.cpp */; };
+		9D25218E159F72AB001CE46F /* Template.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28E0912058A45000FAF17 /* Template.cpp */; };
+		9D25218F159F72AB001CE46F /* TemplateCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28E0B12058A45000FAF17 /* TemplateCache.cpp */; };
+		9D252190159F72AB001CE46F /* Texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28E0D12058A45000FAF17 /* Texture.cpp */; };
+		9D252191159F72AB001CE46F /* TextureDatabase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28E0E12058A45000FAF17 /* TextureDatabase.cpp */; };
+		9D252192159F72AB001CE46F /* TextureLayout.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28E1012058A45000FAF17 /* TextureLayout.cpp */; };
+		9D252193159F72AB001CE46F /* TextureLayoutRectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28E1212058A45000FAF17 /* TextureLayoutRectangle.cpp */; };
+		9D252194159F72AB001CE46F /* TextureLayoutRow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28E1412058A45000FAF17 /* TextureLayoutRow.cpp */; };
+		9D252195159F72AB001CE46F /* TextureLayoutTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28E1612058A45000FAF17 /* TextureLayoutTexture.cpp */; };
+		9D252196159F72AB001CE46F /* TextureResource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28E1812058A45000FAF17 /* TextureResource.cpp */; };
+		9D252197159F72AB001CE46F /* UnicodeRange.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28E1D12058A45000FAF17 /* UnicodeRange.cpp */; };
+		9D252198159F72AB001CE46F /* URL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E9D092B1209823B00099E1A /* URL.cpp */; };
+		9D252199159F72AB001CE46F /* Variant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E9D092C1209823B00099E1A /* Variant.cpp */; };
+		9D25219A159F72AB001CE46F /* WidgetSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28E1F12058A45000FAF17 /* WidgetSlider.cpp */; };
+		9D25219B159F72AB001CE46F /* WidgetSliderScroll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28E2112058A45000FAF17 /* WidgetSliderScroll.cpp */; };
+		9D25219C159F72AB001CE46F /* WString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28DE512058A45000FAF17 /* WString.cpp */; };
+		9D25219D159F72AB001CE46F /* XMLNodeHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28E2312058A45000FAF17 /* XMLNodeHandler.cpp */; };
+		9D25219E159F72AB001CE46F /* XMLNodeHandlerBody.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28E2412058A45000FAF17 /* XMLNodeHandlerBody.cpp */; };
+		9D25219F159F72AB001CE46F /* XMLNodeHandlerDefault.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28E2612058A45000FAF17 /* XMLNodeHandlerDefault.cpp */; };
+		9D2521A0159F72AB001CE46F /* XMLNodeHandlerHead.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28E2812058A45000FAF17 /* XMLNodeHandlerHead.cpp */; };
+		9D2521A1159F72AB001CE46F /* XMLNodeHandlerTemplate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28E2A12058A45000FAF17 /* XMLNodeHandlerTemplate.cpp */; };
+		9D2521A2159F72AB001CE46F /* XMLParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28E2C12058A45000FAF17 /* XMLParser.cpp */; };
+		9D2521A3159F72AB001CE46F /* XMLParseTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6EF28E2D12058A45000FAF17 /* XMLParseTools.cpp */; };
+		9D2521A4159F72E6001CE46F /* Clipboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B1C2D123AB0CC00C451C8 /* Clipboard.cpp */; };
+		9D2521A5159F72E6001CE46F /* Controls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B1C2E123AB0CC00C451C8 /* Controls.cpp */; };
+		9D2521A6159F72E6001CE46F /* DataFormatter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B1C2F123AB0CC00C451C8 /* DataFormatter.cpp */; };
+		9D2521A7159F72E6001CE46F /* DataQuery.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B1C30123AB0CC00C451C8 /* DataQuery.cpp */; };
+		9D2521A8159F72E6001CE46F /* DataSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B1C31123AB0CC00C451C8 /* DataSource.cpp */; };
+		9D2521A9159F72E6001CE46F /* DataSourceListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B1C32123AB0CC00C451C8 /* DataSourceListener.cpp */; };
+		9D2521AA159F72E6001CE46F /* ElementDataGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B1C33123AB0CC00C451C8 /* ElementDataGrid.cpp */; };
+		9D2521AB159F72E6001CE46F /* ElementDataGridCell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B1C34123AB0CC00C451C8 /* ElementDataGridCell.cpp */; };
+		9D2521AC159F72E6001CE46F /* ElementDataGridExpandButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B1C35123AB0CC00C451C8 /* ElementDataGridExpandButton.cpp */; };
+		9D2521AD159F72E6001CE46F /* ElementDataGridRow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B1C36123AB0CC00C451C8 /* ElementDataGridRow.cpp */; };
+		9D2521AE159F72E6001CE46F /* ElementForm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B1C37123AB0CC00C451C8 /* ElementForm.cpp */; };
+		9D2521AF159F72E6001CE46F /* ElementFormControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B1C38123AB0CC00C451C8 /* ElementFormControl.cpp */; };
+		9D2521B0159F72E6001CE46F /* ElementFormControlDataSelect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B1C39123AB0CC00C451C8 /* ElementFormControlDataSelect.cpp */; };
+		9D2521B1159F72E6001CE46F /* ElementFormControlInput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B1C3A123AB0CC00C451C8 /* ElementFormControlInput.cpp */; };
+		9D2521B2159F72E6001CE46F /* ElementFormControlSelect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B1C3B123AB0CC00C451C8 /* ElementFormControlSelect.cpp */; };
+		9D2521B3159F72E6001CE46F /* ElementFormControlTextArea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B1C3C123AB0CC00C451C8 /* ElementFormControlTextArea.cpp */; };
+		9D2521B4159F72E6001CE46F /* ElementTabSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B1C3D123AB0CC00C451C8 /* ElementTabSet.cpp */; };
+		9D2521B5159F72E6001CE46F /* ElementTextSelection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B1C3E123AB0CC00C451C8 /* ElementTextSelection.cpp */; };
+		9D2521B7159F72E6001CE46F /* InputType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B1C40123AB0CC00C451C8 /* InputType.cpp */; };
+		9D2521B9159F72E6001CE46F /* InputTypeButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B1C42123AB0CC00C451C8 /* InputTypeButton.cpp */; };
+		9D2521BB159F72E6001CE46F /* InputTypeCheckbox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B1C44123AB0CC00C451C8 /* InputTypeCheckbox.cpp */; };
+		9D2521BD159F72E6001CE46F /* InputTypeRadio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B1C46123AB0CC00C451C8 /* InputTypeRadio.cpp */; };
+		9D2521BF159F72E6001CE46F /* InputTypeRange.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B1C48123AB0CC00C451C8 /* InputTypeRange.cpp */; };
+		9D2521C1159F72E6001CE46F /* InputTypeSubmit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B1C4A123AB0CC00C451C8 /* InputTypeSubmit.cpp */; };
+		9D2521C3159F72E6001CE46F /* InputTypeText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B1C4C123AB0CC00C451C8 /* InputTypeText.cpp */; };
+		9D2521C5159F72E6001CE46F /* SelectOption.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B1C5D123AB0CC00C451C8 /* SelectOption.cpp */; };
+		9D2521C6159F72E6001CE46F /* WidgetDropDown.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B1C5E123AB0CC00C451C8 /* WidgetDropDown.cpp */; };
+		9D2521C8159F72E6001CE46F /* WidgetSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B1C60123AB0CC00C451C8 /* WidgetSlider.cpp */; };
+		9D2521CA159F72E6001CE46F /* WidgetSliderInput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B1C62123AB0CC00C451C8 /* WidgetSliderInput.cpp */; };
+		9D2521CC159F72E6001CE46F /* WidgetTextInput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B1C64123AB0CC00C451C8 /* WidgetTextInput.cpp */; };
+		9D2521CE159F72E6001CE46F /* WidgetTextInputMultiLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B1C66123AB0CC00C451C8 /* WidgetTextInputMultiLine.cpp */; };
+		9D2521D0159F72E6001CE46F /* WidgetTextInputSingleLine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B1C68123AB0CC00C451C8 /* WidgetTextInputSingleLine.cpp */; };
+		9D2521D2159F72E6001CE46F /* WidgetTextInputSingleLinePassword.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B1C6A123AB0CC00C451C8 /* WidgetTextInputSingleLinePassword.cpp */; };
+		9D2521D4159F72E6001CE46F /* XMLNodeHandlerDataGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B1C6C123AB0CC00C451C8 /* XMLNodeHandlerDataGrid.cpp */; };
+		9D2521D6159F72E6001CE46F /* XMLNodeHandlerTabSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B1C6E123AB0CC00C451C8 /* XMLNodeHandlerTabSet.cpp */; };
+		9D2521D8159F72E6001CE46F /* XMLNodeHandlerTextArea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B1C70123AB0CC00C451C8 /* XMLNodeHandlerTextArea.cpp */; };
+		9D2521DE159F7346001CE46F /* Controls in Resources */ = {isa = PBXBuildFile; fileRef = 9D2521DA159F7346001CE46F /* Controls */; };
+		9D2521DF159F7346001CE46F /* Core in Resources */ = {isa = PBXBuildFile; fileRef = 9D2521DB159F7346001CE46F /* Core */; };
+		9D2521E0159F7346001CE46F /* Controls.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D2521DC159F7346001CE46F /* Controls.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D2521E1159F7346001CE46F /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D2521DD159F7346001CE46F /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D2521E2159F7352001CE46F /* Controls in Headers */ = {isa = PBXBuildFile; fileRef = 9D2521DA159F7346001CE46F /* Controls */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D2521E3159F7352001CE46F /* Core in Headers */ = {isa = PBXBuildFile; fileRef = 9D2521DB159F7346001CE46F /* Core */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D2521E5159F73C0001CE46F /* libfreetype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E8B1DC2123AB7A500C451C8 /* libfreetype.a */; };
+		9D2521E6159F73C0001CE46F /* libbz2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D251E64159F6308001CE46F /* libbz2.dylib */; };
+		9D2521E7159F73C0001CE46F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D251E60159F6029001CE46F /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -554,8 +731,6 @@
 		6E8B1C70123AB0CC00C451C8 /* XMLNodeHandlerTextArea.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = XMLNodeHandlerTextArea.cpp; path = ../Source/Controls/XMLNodeHandlerTextArea.cpp; sourceTree = SOURCE_ROOT; };
 		6E8B1C71123AB0CC00C451C8 /* XMLNodeHandlerTextArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMLNodeHandlerTextArea.h; path = ../Source/Controls/XMLNodeHandlerTextArea.h; sourceTree = SOURCE_ROOT; };
 		6E8B1DC2123AB7A500C451C8 /* libfreetype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfreetype.a; path = ../../support/lib/libfreetype.a; sourceTree = SOURCE_ROOT; };
-		6E8B1DCF123ABA2200C451C8 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		6E8B1DD1123ABA3A00C451C8 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		6E8B1DDC123ABC7800C451C8 /* RocketCoreOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RocketCoreOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E8B1DDD123ABC7800C451C8 /* RocketCoreOSX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RocketCoreOSX-Info.plist"; sourceTree = "<group>"; };
 		6E8B1E6B123ABCEF00C451C8 /* RocketControlsOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RocketControlsOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -807,6 +982,16 @@
 		6EF3BBFF12481DD40014316D /* WString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WString.h; path = ../Include/Rocket/Core/WString.h; sourceTree = SOURCE_ROOT; };
 		6EF3BC0012481DD40014316D /* XMLNodeHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMLNodeHandler.h; path = ../Include/Rocket/Core/XMLNodeHandler.h; sourceTree = SOURCE_ROOT; };
 		6EF3BC0112481DD40014316D /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMLParser.h; path = ../Include/Rocket/Core/XMLParser.h; sourceTree = SOURCE_ROOT; };
+		9D251E60159F6029001CE46F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/lib/libz.dylib; sourceTree = DEVELOPER_DIR; };
+		9D251E62159F6046001CE46F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		9D251E64159F6308001CE46F /* libbz2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbz2.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/lib/libbz2.dylib; sourceTree = DEVELOPER_DIR; };
+		9D25210E159F7207001CE46F /* Rocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Rocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D252118159F7207001CE46F /* Rocket-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rocket-Info.plist"; sourceTree = "<group>"; };
+		9D25211A159F7207001CE46F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9D2521DA159F7346001CE46F /* Controls */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Controls; path = ../../../../../warsow_0.7_sdk/libsrcs/libRocket/libRocket/Include/Rocket/Controls; sourceTree = "<group>"; };
+		9D2521DB159F7346001CE46F /* Core */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Core; path = ../../../../../warsow_0.7_sdk/libsrcs/libRocket/libRocket/Include/Rocket/Core; sourceTree = "<group>"; };
+		9D2521DC159F7346001CE46F /* Controls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Controls.h; path = ../../../../../warsow_0.7_sdk/libsrcs/libRocket/libRocket/Include/Rocket/Controls.h; sourceTree = "<group>"; };
+		9D2521DD159F7346001CE46F /* Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Core.h; path = ../../../../../warsow_0.7_sdk/libsrcs/libRocket/libRocket/Include/Rocket/Core.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -821,8 +1006,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D251E65159F6308001CE46F /* libbz2.dylib in Frameworks */,
+				9D251E61159F6029001CE46F /* libz.dylib in Frameworks */,
 				6E8B1DE1123ABCA200C451C8 /* libfreetype.a in Frameworks */,
-				6E8B1DE2123ABCA200C451C8 /* libz.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -849,10 +1035,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9D25210A159F7207001CE46F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D2521E5159F73C0001CE46F /* libfreetype.a in Frameworks */,
+				9D2521E6159F73C0001CE46F /* libbz2.dylib in Frameworks */,
+				9D2521E7159F73C0001CE46F /* libz.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D2AAC07C0554694100DB518D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D251E63159F6046001CE46F /* libz.dylib in Frameworks */,
 				6E8B1DC3123AB7A500C451C8 /* libfreetype.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -867,6 +1064,7 @@
 				6E8B1BE2123AADEB00C451C8 /* Controls */,
 				6E8B1BD8123AABCD00C451C8 /* Core */,
 				6E9D09201209807A00099E1A /* Libraries */,
+				9D252116159F7207001CE46F /* Rocket */,
 			);
 			name = test;
 			sourceTree = "<group>";
@@ -1200,13 +1398,44 @@
 				6E8B1DDD123ABC7800C451C8 /* RocketCoreOSX-Info.plist */,
 				6E8B1E6B123ABCEF00C451C8 /* RocketControlsOSX.framework */,
 				6E8B1E6C123ABCEF00C451C8 /* RocketControlsOSX-Info.plist */,
-				6E8B1DCF123ABA2200C451C8 /* libz.dylib */,
-				6E8B1DD1123ABA3A00C451C8 /* libz.dylib */,
+				9D25210E159F7207001CE46F /* Rocket.framework */,
 				6E8B1DC2123AB7A500C451C8 /* libfreetype.a */,
+				9D251E64159F6308001CE46F /* libbz2.dylib */,
+				9D251E62159F6046001CE46F /* libz.dylib */,
+				9D251E60159F6029001CE46F /* libz.dylib */,
 				6E8B1BF0123AAEE200C451C8 /* libRocketControlsiOS.a */,
 				6E8B1B0C123A0E2A00C451C8 /* libRocketCoreiOS.a */,
 			);
 			name = Libraries;
+			sourceTree = "<group>";
+		};
+		9D252116159F7207001CE46F /* Rocket */ = {
+			isa = PBXGroup;
+			children = (
+				9D2521E4159F7367001CE46F /* Public Headers */,
+				9D252117159F7207001CE46F /* Supporting Files */,
+			);
+			path = Rocket;
+			sourceTree = "<group>";
+		};
+		9D252117159F7207001CE46F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D252118159F7207001CE46F /* Rocket-Info.plist */,
+				9D252119159F7207001CE46F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D2521E4159F7367001CE46F /* Public Headers */ = {
+			isa = PBXGroup;
+			children = (
+				9D2521DA159F7346001CE46F /* Controls */,
+				9D2521DB159F7346001CE46F /* Core */,
+				9D2521DC159F7346001CE46F /* Controls.h */,
+				9D2521DD159F7346001CE46F /* Core.h */,
+			);
+			name = "Public Headers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1336,6 +1565,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9D25210B159F7207001CE46F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D2521E2159F7352001CE46F /* Controls in Headers */,
+				9D2521E3159F7352001CE46F /* Core in Headers */,
+				9D2521E0159F7346001CE46F /* Controls.h in Headers */,
+				9D2521E1159F7346001CE46F /* Core.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D2AAC07A0554694100DB518D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1438,6 +1678,24 @@
 			productReference = 6E8B1EC6123AC80700C451C8 /* RocketDebuggerOSX.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		9D25210D159F7207001CE46F /* Rocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D252120159F7207001CE46F /* Build configuration list for PBXNativeTarget "Rocket" */;
+			buildPhases = (
+				9D252109159F7207001CE46F /* Sources */,
+				9D25210A159F7207001CE46F /* Frameworks */,
+				9D25210B159F7207001CE46F /* Headers */,
+				9D25210C159F7207001CE46F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rocket;
+			productName = Rocket;
+			productReference = 9D25210E159F7207001CE46F /* Rocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		D2AAC07D0554694100DB518D /* RocketCoreiOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "RocketCoreiOS" */;
@@ -1478,6 +1736,7 @@
 				6E8B1DDB123ABC7800C451C8 /* RocketCoreOSX */,
 				6E8B1EBB123AC7A200C451C8 /* RocketDebuggeriOS */,
 				6E8B1EC5123AC80700C451C8 /* RocketDebuggerOSX */,
+				9D25210D159F7207001CE46F /* Rocket */,
 			);
 		};
 /* End PBXProject section */
@@ -1519,6 +1778,16 @@
 				6EF3BC4F12481DD40014316D /* TypeConverter.inl in Resources */,
 				6EF3BC5312481DD40014316D /* Variant.inl in Resources */,
 				6EF3BC5512481DD40014316D /* Vector2.inl in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D25210C159F7207001CE46F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D25211B159F7207001CE46F /* InfoPlist.strings in Resources */,
+				9D2521DE159F7346001CE46F /* Controls in Resources */,
+				9D2521DF159F7346001CE46F /* Core in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1775,6 +2044,178 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9D252109159F7207001CE46F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D252123159F72AB001CE46F /* BaseXMLParser.cpp in Sources */,
+				9D252124159F72AB001CE46F /* Box.cpp in Sources */,
+				9D252125159F72AB001CE46F /* Clock.cpp in Sources */,
+				9D252126159F72AB001CE46F /* Context.cpp in Sources */,
+				9D252127159F72AB001CE46F /* ContextInstancer.cpp in Sources */,
+				9D252128159F72AB001CE46F /* ContextInstancerDefault.cpp in Sources */,
+				9D252129159F72AB001CE46F /* ConvolutionFilter.cpp in Sources */,
+				9D25212A159F72AB001CE46F /* Core.cpp in Sources */,
+				9D25212B159F72AB001CE46F /* Decorator.cpp in Sources */,
+				9D25212C159F72AB001CE46F /* DecoratorInstancer.cpp in Sources */,
+				9D25212D159F72AB001CE46F /* DecoratorNone.cpp in Sources */,
+				9D25212E159F72AB001CE46F /* DecoratorNoneInstancer.cpp in Sources */,
+				9D25212F159F72AB001CE46F /* DecoratorTiled.cpp in Sources */,
+				9D252130159F72AB001CE46F /* DecoratorTiledBox.cpp in Sources */,
+				9D252131159F72AB001CE46F /* DecoratorTiledBoxInstancer.cpp in Sources */,
+				9D252132159F72AB001CE46F /* DecoratorTiledHorizontal.cpp in Sources */,
+				9D252133159F72AB001CE46F /* DecoratorTiledHorizontalInstancer.cpp in Sources */,
+				9D252134159F72AB001CE46F /* DecoratorTiledImage.cpp in Sources */,
+				9D252135159F72AB001CE46F /* DecoratorTiledImageInstancer.cpp in Sources */,
+				9D252136159F72AB001CE46F /* DecoratorTiledInstancer.cpp in Sources */,
+				9D252137159F72AB001CE46F /* DecoratorTiledVertical.cpp in Sources */,
+				9D252138159F72AB001CE46F /* DecoratorTiledVerticalInstancer.cpp in Sources */,
+				9D252139159F72AB001CE46F /* Dictionary.cpp in Sources */,
+				9D25213A159F72AB001CE46F /* DocumentHeader.cpp in Sources */,
+				9D25213B159F72AB001CE46F /* Element.cpp in Sources */,
+				9D25213C159F72AB001CE46F /* ElementBackground.cpp in Sources */,
+				9D25213D159F72AB001CE46F /* ElementBorder.cpp in Sources */,
+				9D25213E159F72AB001CE46F /* ElementDecoration.cpp in Sources */,
+				9D25213F159F72AB001CE46F /* ElementDefinition.cpp in Sources */,
+				9D252140159F72AB001CE46F /* ElementDocument.cpp in Sources */,
+				9D252141159F72AB001CE46F /* ElementHandle.cpp in Sources */,
+				9D252142159F72AB001CE46F /* ElementImage.cpp in Sources */,
+				9D252143159F72AB001CE46F /* ElementInstancer.cpp in Sources */,
+				9D252144159F72AB001CE46F /* ElementReference.cpp in Sources */,
+				9D252145159F72AB001CE46F /* ElementScroll.cpp in Sources */,
+				9D252146159F72AB001CE46F /* ElementStyle.cpp in Sources */,
+				9D252147159F72AB001CE46F /* ElementText.cpp in Sources */,
+				9D252148159F72AB001CE46F /* ElementTextDefault.cpp in Sources */,
+				9D252149159F72AB001CE46F /* ElementUtilities.cpp in Sources */,
+				9D25214A159F72AB001CE46F /* Event.cpp in Sources */,
+				9D25214B159F72AB001CE46F /* EventDispatcher.cpp in Sources */,
+				9D25214C159F72AB001CE46F /* EventInstancer.cpp in Sources */,
+				9D25214D159F72AB001CE46F /* EventInstancerDefault.cpp in Sources */,
+				9D25214E159F72AB001CE46F /* EventListenerInstancer.cpp in Sources */,
+				9D25214F159F72AB001CE46F /* Factory.cpp in Sources */,
+				9D252150159F72AB001CE46F /* FileInterface.cpp in Sources */,
+				9D252151159F72AB001CE46F /* FileInterfaceDefault.cpp in Sources */,
+				9D252152159F72AB001CE46F /* FontDatabase.cpp in Sources */,
+				9D252153159F72AB001CE46F /* FontEffect.cpp in Sources */,
+				9D252154159F72AB001CE46F /* FontEffectInstancer.cpp in Sources */,
+				9D252155159F72AB001CE46F /* FontEffectNone.cpp in Sources */,
+				9D252156159F72AB001CE46F /* FontEffectNoneInstancer.cpp in Sources */,
+				9D252157159F72AB001CE46F /* FontEffectOutline.cpp in Sources */,
+				9D252158159F72AB001CE46F /* FontEffectOutlineInstancer.cpp in Sources */,
+				9D252159159F72AB001CE46F /* FontEffectShadow.cpp in Sources */,
+				9D25215A159F72AB001CE46F /* FontEffectShadowInstancer.cpp in Sources */,
+				9D25215B159F72AB001CE46F /* FontFace.cpp in Sources */,
+				9D25215C159F72AB001CE46F /* FontFaceHandle.cpp in Sources */,
+				9D25215D159F72AB001CE46F /* FontFaceLayer.cpp in Sources */,
+				9D25215E159F72AB001CE46F /* FontFamily.cpp in Sources */,
+				9D25215F159F72AB001CE46F /* Geometry.cpp in Sources */,
+				9D252160159F72AB001CE46F /* GeometryDatabase.cpp in Sources */,
+				9D252161159F72AB001CE46F /* GeometryUtilities.cpp in Sources */,
+				9D252162159F72AB001CE46F /* LayoutBlockBox.cpp in Sources */,
+				9D252163159F72AB001CE46F /* LayoutBlockBoxSpace.cpp in Sources */,
+				9D252164159F72AB001CE46F /* LayoutEngine.cpp in Sources */,
+				9D252165159F72AB001CE46F /* LayoutInlineBox.cpp in Sources */,
+				9D252166159F72AB001CE46F /* LayoutInlineBoxText.cpp in Sources */,
+				9D252167159F72AB001CE46F /* LayoutLineBox.cpp in Sources */,
+				9D252168159F72AB001CE46F /* Log.cpp in Sources */,
+				9D252169159F72AB001CE46F /* Math.cpp in Sources */,
+				9D25216A159F72AB001CE46F /* Plugin.cpp in Sources */,
+				9D25216B159F72AB001CE46F /* PluginRegistry.cpp in Sources */,
+				9D25216C159F72AB001CE46F /* Property.cpp in Sources */,
+				9D25216D159F72AB001CE46F /* PropertyDefinition.cpp in Sources */,
+				9D25216E159F72AB001CE46F /* PropertyDictionary.cpp in Sources */,
+				9D25216F159F72AB001CE46F /* PropertyParserColour.cpp in Sources */,
+				9D252170159F72AB001CE46F /* PropertyParserKeyword.cpp in Sources */,
+				9D252171159F72AB001CE46F /* PropertyParserNumber.cpp in Sources */,
+				9D252172159F72AB001CE46F /* PropertyParserString.cpp in Sources */,
+				9D252173159F72AB001CE46F /* PropertySpecification.cpp in Sources */,
+				9D252174159F72AB001CE46F /* ReferenceCountable.cpp in Sources */,
+				9D252175159F72AB001CE46F /* RenderInterface.cpp in Sources */,
+				9D252176159F72AB001CE46F /* Stream.cpp in Sources */,
+				9D252177159F72AB001CE46F /* StreamFile.cpp in Sources */,
+				9D252178159F72AB001CE46F /* StreamMemory.cpp in Sources */,
+				9D252179159F72AB001CE46F /* String.cpp in Sources */,
+				9D25217A159F72AB001CE46F /* StringCache.cpp in Sources */,
+				9D25217B159F72AB001CE46F /* StringUtilities.cpp in Sources */,
+				9D25217C159F72AB001CE46F /* StyleSheet.cpp in Sources */,
+				9D25217D159F72AB001CE46F /* StyleSheetFactory.cpp in Sources */,
+				9D25217E159F72AB001CE46F /* StyleSheetNode.cpp in Sources */,
+				9D25217F159F72AB001CE46F /* StyleSheetNodeSelector.cpp in Sources */,
+				9D252180159F72AB001CE46F /* StyleSheetNodeSelectorEmpty.cpp in Sources */,
+				9D252181159F72AB001CE46F /* StyleSheetNodeSelectorFirstChild.cpp in Sources */,
+				9D252182159F72AB001CE46F /* StyleSheetNodeSelectorFirstOfType.cpp in Sources */,
+				9D252183159F72AB001CE46F /* StyleSheetNodeSelectorLastChild.cpp in Sources */,
+				9D252184159F72AB001CE46F /* StyleSheetNodeSelectorLastOfType.cpp in Sources */,
+				9D252185159F72AB001CE46F /* StyleSheetNodeSelectorNthChild.cpp in Sources */,
+				9D252186159F72AB001CE46F /* StyleSheetNodeSelectorNthLastChild.cpp in Sources */,
+				9D252187159F72AB001CE46F /* StyleSheetNodeSelectorNthLastOfType.cpp in Sources */,
+				9D252188159F72AB001CE46F /* StyleSheetNodeSelectorNthOfType.cpp in Sources */,
+				9D252189159F72AB001CE46F /* StyleSheetNodeSelectorOnlyChild.cpp in Sources */,
+				9D25218A159F72AB001CE46F /* StyleSheetNodeSelectorOnlyOfType.cpp in Sources */,
+				9D25218B159F72AB001CE46F /* StyleSheetParser.cpp in Sources */,
+				9D25218C159F72AB001CE46F /* StyleSheetSpecification.cpp in Sources */,
+				9D25218D159F72AB001CE46F /* SystemInterface.cpp in Sources */,
+				9D25218E159F72AB001CE46F /* Template.cpp in Sources */,
+				9D25218F159F72AB001CE46F /* TemplateCache.cpp in Sources */,
+				9D252190159F72AB001CE46F /* Texture.cpp in Sources */,
+				9D252191159F72AB001CE46F /* TextureDatabase.cpp in Sources */,
+				9D252192159F72AB001CE46F /* TextureLayout.cpp in Sources */,
+				9D252193159F72AB001CE46F /* TextureLayoutRectangle.cpp in Sources */,
+				9D252194159F72AB001CE46F /* TextureLayoutRow.cpp in Sources */,
+				9D252195159F72AB001CE46F /* TextureLayoutTexture.cpp in Sources */,
+				9D252196159F72AB001CE46F /* TextureResource.cpp in Sources */,
+				9D252197159F72AB001CE46F /* UnicodeRange.cpp in Sources */,
+				9D252198159F72AB001CE46F /* URL.cpp in Sources */,
+				9D252199159F72AB001CE46F /* Variant.cpp in Sources */,
+				9D25219A159F72AB001CE46F /* WidgetSlider.cpp in Sources */,
+				9D25219B159F72AB001CE46F /* WidgetSliderScroll.cpp in Sources */,
+				9D25219C159F72AB001CE46F /* WString.cpp in Sources */,
+				9D25219D159F72AB001CE46F /* XMLNodeHandler.cpp in Sources */,
+				9D25219E159F72AB001CE46F /* XMLNodeHandlerBody.cpp in Sources */,
+				9D25219F159F72AB001CE46F /* XMLNodeHandlerDefault.cpp in Sources */,
+				9D2521A0159F72AB001CE46F /* XMLNodeHandlerHead.cpp in Sources */,
+				9D2521A1159F72AB001CE46F /* XMLNodeHandlerTemplate.cpp in Sources */,
+				9D2521A2159F72AB001CE46F /* XMLParser.cpp in Sources */,
+				9D2521A3159F72AB001CE46F /* XMLParseTools.cpp in Sources */,
+				9D2521A4159F72E6001CE46F /* Clipboard.cpp in Sources */,
+				9D2521A5159F72E6001CE46F /* Controls.cpp in Sources */,
+				9D2521A6159F72E6001CE46F /* DataFormatter.cpp in Sources */,
+				9D2521A7159F72E6001CE46F /* DataQuery.cpp in Sources */,
+				9D2521A8159F72E6001CE46F /* DataSource.cpp in Sources */,
+				9D2521A9159F72E6001CE46F /* DataSourceListener.cpp in Sources */,
+				9D2521AA159F72E6001CE46F /* ElementDataGrid.cpp in Sources */,
+				9D2521AB159F72E6001CE46F /* ElementDataGridCell.cpp in Sources */,
+				9D2521AC159F72E6001CE46F /* ElementDataGridExpandButton.cpp in Sources */,
+				9D2521AD159F72E6001CE46F /* ElementDataGridRow.cpp in Sources */,
+				9D2521AE159F72E6001CE46F /* ElementForm.cpp in Sources */,
+				9D2521AF159F72E6001CE46F /* ElementFormControl.cpp in Sources */,
+				9D2521B0159F72E6001CE46F /* ElementFormControlDataSelect.cpp in Sources */,
+				9D2521B1159F72E6001CE46F /* ElementFormControlInput.cpp in Sources */,
+				9D2521B2159F72E6001CE46F /* ElementFormControlSelect.cpp in Sources */,
+				9D2521B3159F72E6001CE46F /* ElementFormControlTextArea.cpp in Sources */,
+				9D2521B4159F72E6001CE46F /* ElementTabSet.cpp in Sources */,
+				9D2521B5159F72E6001CE46F /* ElementTextSelection.cpp in Sources */,
+				9D2521B7159F72E6001CE46F /* InputType.cpp in Sources */,
+				9D2521B9159F72E6001CE46F /* InputTypeButton.cpp in Sources */,
+				9D2521BB159F72E6001CE46F /* InputTypeCheckbox.cpp in Sources */,
+				9D2521BD159F72E6001CE46F /* InputTypeRadio.cpp in Sources */,
+				9D2521BF159F72E6001CE46F /* InputTypeRange.cpp in Sources */,
+				9D2521C1159F72E6001CE46F /* InputTypeSubmit.cpp in Sources */,
+				9D2521C3159F72E6001CE46F /* InputTypeText.cpp in Sources */,
+				9D2521C5159F72E6001CE46F /* SelectOption.cpp in Sources */,
+				9D2521C6159F72E6001CE46F /* WidgetDropDown.cpp in Sources */,
+				9D2521C8159F72E6001CE46F /* WidgetSlider.cpp in Sources */,
+				9D2521CA159F72E6001CE46F /* WidgetSliderInput.cpp in Sources */,
+				9D2521CC159F72E6001CE46F /* WidgetTextInput.cpp in Sources */,
+				9D2521CE159F72E6001CE46F /* WidgetTextInputMultiLine.cpp in Sources */,
+				9D2521D0159F72E6001CE46F /* WidgetTextInputSingleLine.cpp in Sources */,
+				9D2521D2159F72E6001CE46F /* WidgetTextInputSingleLinePassword.cpp in Sources */,
+				9D2521D4159F72E6001CE46F /* XMLNodeHandlerDataGrid.cpp in Sources */,
+				9D2521D6159F72E6001CE46F /* XMLNodeHandlerTabSet.cpp in Sources */,
+				9D2521D8159F72E6001CE46F /* XMLNodeHandlerTextArea.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D2AAC07B0554694100DB518D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1936,6 +2377,17 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		9D252119159F7207001CE46F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D25211A159F7207001CE46F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		1DEB921F08733DC00010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2049,7 +2501,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -2074,7 +2526,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = RocketCoreOSX;
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -2082,7 +2534,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -2106,7 +2558,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = RocketCoreOSX;
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -2115,7 +2567,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -2136,7 +2588,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = RocketControlsOSX;
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -2144,7 +2596,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -2164,7 +2616,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = RocketControlsOSX;
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -2255,6 +2707,76 @@
 			};
 			name = Release;
 		};
+		9D252121159F7207001CE46F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "Rocket/Rocket-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../support/lib\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		9D252122159F7207001CE46F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "Rocket/Rocket-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../support/lib\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2317,6 +2839,15 @@
 			buildConfigurations = (
 				6E8B1EC8123AC80800C451C8 /* Debug */,
 				6E8B1EC9123AC80800C451C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D252120159F7207001CE46F /* Build configuration list for PBXNativeTarget "Rocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D252121159F7207001CE46F /* Debug */,
+				9D252122159F7207001CE46F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

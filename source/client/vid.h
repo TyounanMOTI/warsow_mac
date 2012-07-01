@@ -36,3 +36,5 @@ void	*VID_GetWindowHandle( void );
 void	VID_FlashWindow( int count );
 qboolean VID_GetScreenSize( int *width, int *height );
 qboolean VID_GetModeInfo( int *width, int *height, qboolean *wideScreen, int mode );
+int VID_GetModeNum( int width, int height );
+void VID_NewWindow( int width, int height );

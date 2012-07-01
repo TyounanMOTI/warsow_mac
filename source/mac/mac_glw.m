@@ -24,7 +24,7 @@
 #include <OpenGL/OpenGL.h>
 
 #include "../ref_gl/r_local.h"
-#include "../client/keys.h"
+#include "../client/client.h"
 #include "mac_glw.h"
 
 glwstate_t glw_state = { NULL, qfalse };
@@ -35,19 +35,17 @@ glwstate_t glw_state = { NULL, qfalse };
  * @param fullscreen <code>qtrue</code> for a fullscreen mode,
  *     <code>qfalse</code> otherwise
  */
-int GLimp_SetMode( int mode, qboolean fullscreen )
+rserr_t GLimp_SetMode( int x, int y, int width, int height, qboolean fullscreen, qboolean wideScreen )
 {
-	int width;
-	int height;
 	int colorbits;
-	qboolean wideScreen;
 
+  /*
 	if( !VID_GetModeInfo( &width, &height, &wideScreen, mode ) )
 	{
 		Com_Printf( " invalid mode\n" );
 		return rserr_invalid_mode;
 	}
-
+   */
 	colorbits = r_colorbits->integer;
 
 #ifdef VIDEOMODE_HACK
@@ -135,7 +133,7 @@ int GLimp_Init( void *hinstance, void *wndproc, void *parenthWnd )
 	hinstance = NULL;
 	wndproc = NULL;
 	parenthWnd = NULL;
-	vid_fullscreen->flags &= ~( CVAR_LATCH_VIDEO );
+//	vid_fullscreen->flags &= ~( CVAR_LATCH_VIDEO );
 	Com_Printf( "Display initialization\n" );
 
 	const SDL_VideoInfo *info = NULL;
@@ -173,13 +171,14 @@ void GLimp_BeginFrame( void )
 void GLimp_EndFrame( void )
 {
 	SDL_GL_SwapBuffers();
-	
+	/*
 	if( vid_fullscreen->modified || ( vid_fullscreen->integer && vid_multiscreen_head->modified ) )
 	{
 		Cbuf_ExecuteText( EXEC_APPEND, "vid_restart\n");
 		vid_fullscreen->modified = qfalse;
 		vid_multiscreen_head->modified = qfalse;
 	}
+  */
 }
 
 
@@ -273,3 +272,5 @@ void Sys_FreeClipboardData( char *data )
 {
 	Q_free( data );
 }
+
+void	Sys_OpenURLInBrowser( const char *url ) {}

@@ -197,7 +197,6 @@
 		286755B40F5DF56400C05B53 /* unix_net.c in Sources */ = {isa = PBXBuildFile; fileRef = 28A722DA0F5DEAA0006FB1A8 /* unix_net.c */; };
 		286755B50F5DF56400C05B53 /* unix_lib.c in Sources */ = {isa = PBXBuildFile; fileRef = 28A722D90F5DEAA0006FB1A8 /* unix_lib.c */; };
 		286755B60F5DF56400C05B53 /* unix_fs.c in Sources */ = {isa = PBXBuildFile; fileRef = 28A722D50F5DEAA0006FB1A8 /* unix_fs.c */; };
-		286755B70F5DF56400C05B53 /* unix_vid.c in Sources */ = {isa = PBXBuildFile; fileRef = 28A722DE0F5DEAA0006FB1A8 /* unix_vid.c */; };
 		286755B90F5DF57200C05B53 /* r_program.c in Sources */ = {isa = PBXBuildFile; fileRef = 28A721DF0F5DEAA0006FB1A8 /* r_program.c */; };
 		286755BA0F5DF57200C05B53 /* r_cull.c in Sources */ = {isa = PBXBuildFile; fileRef = 28A721D10F5DEAA0006FB1A8 /* r_cull.c */; };
 		286755BB0F5DF57200C05B53 /* r_backend.c in Sources */ = {isa = PBXBuildFile; fileRef = 28A721CD0F5DEAA0006FB1A8 /* r_backend.c */; };
@@ -508,7 +507,13 @@
 		9D2521F515A07B55001CE46F /* mm_rating.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D251E47159F459A001CE46F /* mm_rating.c */; };
 		9D2521F815A07BC7001CE46F /* r_backend_glsl.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D2521F615A07BC6001CE46F /* r_backend_glsl.c */; };
 		9D2521FB15A07C05001CE46F /* r_vbo.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D2521FA15A07C05001CE46F /* r_vbo.c */; };
-		9D25225615A08479001CE46F /* png.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D25225515A08479001CE46F /* png.framework */; };
+		9D25225815A08FC3001CE46F /* unix_xpm.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D25225715A08FC3001CE46F /* unix_xpm.c */; };
+		9D25226315A09B5B001CE46F /* mac_vid.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D25226215A09B5B001CE46F /* mac_vid.c */; };
+		9D25226615A0A1C1001CE46F /* basewsw in basewsw pk3 */ = {isa = PBXBuildFile; fileRef = 9D25226515A0A1BE001CE46F /* basewsw */; };
+		9D25226D15A0A897001CE46F /* Rocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D2521E8159F744B001CE46F /* Rocket.framework */; };
+		9D25226F15A0A8AE001CE46F /* libcurl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D251E4C159F5B00001CE46F /* libcurl.framework */; };
+		9D2522A915A0AE8E001CE46F /* png.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D2522A815A0AE8E001CE46F /* png.framework */; };
+		9D2522AA15A0AE9B001CE46F /* png.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D2522A815A0AE8E001CE46F /* png.framework */; };
 		F32B3CDD126AD0770009B379 /* cg_chat.c in Sources */ = {isa = PBXBuildFile; fileRef = F393AB111237FAE600AF2318 /* cg_chat.c */; };
 		F388D9E9113BE43D0039559F /* libmumblelink.c in Sources */ = {isa = PBXBuildFile; fileRef = F388D9E7113BE43D0039559F /* libmumblelink.c */; };
 		F3DA081910DA33350038AE7F /* wswcurl.c in Sources */ = {isa = PBXBuildFile; fileRef = F3DA081710DA33350038AE7F /* wswcurl.c */; };
@@ -599,6 +604,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				9D2522AA15A0AE9B001CE46F /* png.framework in Frameworks */,
+				9D25226D15A0A897001CE46F /* Rocket.framework in Frameworks */,
+				9D25226F15A0A8AE001CE46F /* libcurl.framework in Frameworks */,
 				282250F20F6BD998002F3547 /* SDL.framework in Frameworks */,
 				286756CC0F5DFB3500C05B53 /* Ogg.framework in Frameworks */,
 				286756CD0F5DFB3500C05B53 /* angelscript.framework in Frameworks */,
@@ -635,6 +643,17 @@
 			name = libs;
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9D25226415A0A0D3001CE46F /* basewsw pk3 */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				9D25226615A0A1C1001CE46F /* basewsw in basewsw pk3 */,
+			);
+			name = "basewsw pk3";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -656,7 +675,6 @@
 		283CAD340EA34AD400209134 /* angelwrap_mac.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = angelwrap_mac.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		2867563A0F5DF79500C05B53 /* libjpeg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libjpeg.framework; path = Frameworks/libjpeg.framework; sourceTree = "<group>"; };
 		2867566A0F5DF8ED00C05B53 /* Warsow SDL-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Warsow SDL-Info.plist"; sourceTree = "<group>"; };
-		286756910F5DFA0400C05B53 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		2867572A0F5DFE9000C05B53 /* wsw_icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = wsw_icon.icns; sourceTree = "<group>"; };
 		289762BA0F682681001563E7 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		289762BB0F682681001563E7 /* q_arch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = q_arch.h; sourceTree = "<group>"; };
@@ -1158,7 +1176,10 @@
 		9D2521F715A07BC6001CE46F /* r_backend_local.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = r_backend_local.h; sourceTree = "<group>"; };
 		9D2521F915A07BD2001CE46F /* iqm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iqm.h; sourceTree = "<group>"; };
 		9D2521FA15A07C05001CE46F /* r_vbo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = r_vbo.c; sourceTree = "<group>"; };
-		9D25225515A08479001CE46F /* png.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = png.framework; path = Frameworks/png.framework; sourceTree = "<group>"; };
+		9D25225715A08FC3001CE46F /* unix_xpm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unix_xpm.c; sourceTree = "<group>"; };
+		9D25226215A09B5B001CE46F /* mac_vid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mac_vid.c; sourceTree = "<group>"; };
+		9D25226515A0A1BE001CE46F /* basewsw */ = {isa = PBXFileReference; lastKnownFileType = folder; name = basewsw; path = ../../basewsw; sourceTree = "<group>"; };
+		9D2522A815A0AE8E001CE46F /* png.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = png.framework; path = Frameworks/png.framework; sourceTree = "<group>"; };
 		F388D9E7113BE43D0039559F /* libmumblelink.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libmumblelink.c; sourceTree = "<group>"; };
 		F388D9E8113BE43D0039559F /* libmumblelink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libmumblelink.h; sourceTree = "<group>"; };
 		F393AB111237FAE600AF2318 /* cg_chat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cg_chat.c; sourceTree = "<group>"; };
@@ -1229,7 +1250,7 @@
 				2822511E0F6BDA8C002F3547 /* Foundation.framework in Frameworks */,
 				282251220F6BDAA7002F3547 /* AppKit.framework in Frameworks */,
 				9D251E4F159F5B31001CE46F /* libcurl.framework in Frameworks */,
-				9D25225615A08479001CE46F /* png.framework in Frameworks */,
+				9D2522A915A0AE8E001CE46F /* png.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1265,11 +1286,10 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9D25225515A08479001CE46F /* png.framework */,
+				9D2522A815A0AE8E001CE46F /* png.framework */,
 				9D2521E8159F744B001CE46F /* Rocket.framework */,
 				9D251E4C159F5B00001CE46F /* libcurl.framework */,
 				282254D30F6C3C0B002F3547 /* libz.dylib */,
-				286756910F5DFA0400C05B53 /* OpenGL.framework */,
 				28186D5F0F6A927600017ABD /* IOKit.framework */,
 				28F120E80F6B13440053E51D /* SDL.framework */,
 				2867563A0F5DF79500C05B53 /* libjpeg.framework */,
@@ -1568,6 +1588,7 @@
 				28A721680F5DEAA0006FB1A8 /* mac_qgl.c */,
 				28A721690F5DEAA0006FB1A8 /* SDLMain.h */,
 				28A7216A0F5DEAA0006FB1A8 /* SDLMain.m */,
+				9D25226215A09B5B001CE46F /* mac_vid.c */,
 			);
 			name = mac;
 			sourceTree = "<group>";
@@ -1879,6 +1900,7 @@
 				28A722DC0F5DEAA0006FB1A8 /* unix_snd.c */,
 				28A722DD0F5DEAA0006FB1A8 /* unix_sys.c */,
 				28A722DE0F5DEAA0006FB1A8 /* unix_vid.c */,
+				9D25225715A08FC3001CE46F /* unix_xpm.c */,
 				28A722DF0F5DEAA0006FB1A8 /* x11.h */,
 				28A722E00F5DEAA0006FB1A8 /* x11_hardcoded.h */,
 			);
@@ -1900,6 +1922,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9D25226515A0A1BE001CE46F /* basewsw */,
 				2867572A0F5DFE9000C05B53 /* wsw_icon.icns */,
 				2867566A0F5DF8ED00C05B53 /* Warsow SDL-Info.plist */,
 			);
@@ -2307,6 +2330,7 @@
 				283CABFB0EA3406100209134 /* Sources */,
 				283CABFC0EA3406100209134 /* Frameworks */,
 				286756CB0F5DFB3500C05B53 /* Frameworks */,
+				9D25226415A0A0D3001CE46F /* basewsw pk3 */,
 				286757280F5DFCF900C05B53 /* basewsw */,
 				286757290F5DFCF900C05B53 /* libs */,
 				2807570C0F6076DE00566D02 /* sync svn data */,
@@ -2697,7 +2721,6 @@
 				286755B40F5DF56400C05B53 /* unix_net.c in Sources */,
 				286755B50F5DF56400C05B53 /* unix_lib.c in Sources */,
 				286755B60F5DF56400C05B53 /* unix_fs.c in Sources */,
-				286755B70F5DF56400C05B53 /* unix_vid.c in Sources */,
 				286755B00F5DF54900C05B53 /* mac_qgl.c in Sources */,
 				286755B10F5DF54900C05B53 /* mac_glw.m in Sources */,
 				286755B20F5DF54900C05B53 /* mac_input.m in Sources */,
@@ -2758,6 +2781,8 @@
 				9D2521F315A07A8D001CE46F /* cjson.c in Sources */,
 				9D2521F415A07B55001CE46F /* mm_query.c in Sources */,
 				9D2521F515A07B55001CE46F /* mm_rating.c in Sources */,
+				9D25225815A08FC3001CE46F /* unix_xpm.c in Sources */,
+				9D25226315A09B5B001CE46F /* mac_vid.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3244,6 +3269,7 @@
 				GCC_PREFIX_HEADER = "";
 				GCC_PREPROCESSOR_DEFINITIONS = _DEBUG;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = "\"$(SDKROOT)/usr/X11/include/\"";
 				INFOPLIST_FILE = "Warsow SDL-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				ONLY_ACTIVE_ARCH = YES;
@@ -3272,6 +3298,7 @@
 				GCC_PREPROCESSOR_DEFINITIONS = NDEBUG;
 				GCC_UNROLL_LOOPS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = "\"$(SDKROOT)/usr/X11/include/\"";
 				INFOPLIST_FILE = "Warsow SDL-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_CFLAGS = "-fno-strict-aliasing";
