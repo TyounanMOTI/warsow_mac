@@ -134,7 +134,6 @@
 		282256000F6C3C47002F3547 /* wswtv_server in command line tools */ = {isa = PBXBuildFile; fileRef = 28F121D90F6B1DFA0053E51D /* wswtv_server */; };
 		283CA8670EA330A200209134 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 283CA8660EA330A200209134 /* OpenAL.framework */; };
 		283CAC050EA3408200209134 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 283CABD30EA33F8E00209134 /* libz.dylib */; };
-		283CAC060EA3408200209134 /* libcurl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 283CABD10EA33F8100209134 /* libcurl.dylib */; };
 		283CAF2A0EA3614400209134 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		286755770F5DF4F300C05B53 /* cl_serverlist.c in Sources */ = {isa = PBXBuildFile; fileRef = 28A720E50F5DEA9F006FB1A8 /* cl_serverlist.c */; };
 		286755780F5DF4F300C05B53 /* console.c in Sources */ = {isa = PBXBuildFile; fileRef = 28A720EA0F5DEA9F006FB1A8 /* console.c */; };
@@ -672,7 +671,6 @@
 		283CA8B00EA332BC00209134 /* game_mac.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = game_mac.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		283CA8B70EA332CF00209134 /* cgame_mac.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = cgame_mac.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		283CA8BE0EA332DA00209134 /* ui_mac.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = ui_mac.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		283CABD10EA33F8100209134 /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = usr/lib/libcurl.dylib; sourceTree = SDKROOT; };
 		283CABD30EA33F8E00209134 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		283CABFE0EA3406100209134 /* Warsow SDL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Warsow SDL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		283CAD340EA34AD400209134 /* angelwrap_mac.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = angelwrap_mac.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1247,7 +1245,6 @@
 			files = (
 				283CAF2A0EA3614400209134 /* Cocoa.framework in Frameworks */,
 				283CAC050EA3408200209134 /* libz.dylib in Frameworks */,
-				283CAC060EA3408200209134 /* libcurl.dylib in Frameworks */,
 				2867563B0F5DF79500C05B53 /* libjpeg.framework in Frameworks */,
 				28186D600F6A927600017ABD /* IOKit.framework in Frameworks */,
 				28F120E90F6B13440053E51D /* SDL.framework in Frameworks */,
@@ -1303,7 +1300,6 @@
 				28A7207D0F5DEA70006FB1A8 /* Ogg.framework */,
 				28A7207E0F5DEA70006FB1A8 /* Vorbis.framework */,
 				283CABD30EA33F8E00209134 /* libz.dylib */,
-				283CABD10EA33F8100209134 /* libcurl.dylib */,
 				283CA8660EA330A200209134 /* OpenAL.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 			);
