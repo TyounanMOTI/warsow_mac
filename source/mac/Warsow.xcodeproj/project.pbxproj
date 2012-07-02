@@ -514,6 +514,8 @@
 		9D25226F15A0A8AE001CE46F /* libcurl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D251E4C159F5B00001CE46F /* libcurl.framework */; };
 		9D2522A915A0AE8E001CE46F /* png.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D2522A815A0AE8E001CE46F /* png.framework */; };
 		9D2522AA15A0AE9B001CE46F /* png.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D2522A815A0AE8E001CE46F /* png.framework */; };
+		9DA731D815A1C46D00910C34 /* Theora.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA731D715A1C46D00910C34 /* Theora.framework */; };
+		9DA731DA15A1C49200910C34 /* Theora.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA731D715A1C46D00910C34 /* Theora.framework */; };
 		F32B3CDD126AD0770009B379 /* cg_chat.c in Sources */ = {isa = PBXBuildFile; fileRef = F393AB111237FAE600AF2318 /* cg_chat.c */; };
 		F388D9E9113BE43D0039559F /* libmumblelink.c in Sources */ = {isa = PBXBuildFile; fileRef = F388D9E7113BE43D0039559F /* libmumblelink.c */; };
 		F3DA081910DA33350038AE7F /* wswcurl.c in Sources */ = {isa = PBXBuildFile; fileRef = F3DA081710DA33350038AE7F /* wswcurl.c */; };
@@ -604,6 +606,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				9DA731DA15A1C49200910C34 /* Theora.framework in Frameworks */,
 				9D2522AA15A0AE9B001CE46F /* png.framework in Frameworks */,
 				9D25226D15A0A897001CE46F /* Rocket.framework in Frameworks */,
 				9D25226F15A0A8AE001CE46F /* libcurl.framework in Frameworks */,
@@ -1180,6 +1183,7 @@
 		9D25226215A09B5B001CE46F /* mac_vid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mac_vid.c; sourceTree = "<group>"; };
 		9D25226515A0A1BE001CE46F /* basewsw */ = {isa = PBXFileReference; lastKnownFileType = folder; name = basewsw; path = ../../basewsw; sourceTree = "<group>"; };
 		9D2522A815A0AE8E001CE46F /* png.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = png.framework; path = Frameworks/png.framework; sourceTree = "<group>"; };
+		9DA731D715A1C46D00910C34 /* Theora.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Theora.framework; path = Frameworks/Theora.framework; sourceTree = "<group>"; };
 		F388D9E7113BE43D0039559F /* libmumblelink.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libmumblelink.c; sourceTree = "<group>"; };
 		F388D9E8113BE43D0039559F /* libmumblelink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libmumblelink.h; sourceTree = "<group>"; };
 		F393AB111237FAE600AF2318 /* cg_chat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cg_chat.c; sourceTree = "<group>"; };
@@ -1251,6 +1255,7 @@
 				282251220F6BDAA7002F3547 /* AppKit.framework in Frameworks */,
 				9D251E4F159F5B31001CE46F /* libcurl.framework in Frameworks */,
 				9D2522A915A0AE8E001CE46F /* png.framework in Frameworks */,
+				9DA731D815A1C46D00910C34 /* Theora.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1286,6 +1291,7 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9DA731D715A1C46D00910C34 /* Theora.framework */,
 				9D2522A815A0AE8E001CE46F /* png.framework */,
 				9D2521E8159F744B001CE46F /* Rocket.framework */,
 				9D251E4C159F5B00001CE46F /* libcurl.framework */,
