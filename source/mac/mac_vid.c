@@ -19,13 +19,9 @@
  */
 
 #include "../client/client.h"
-#include "x11.h"
-
-static x11display_t *display;
 
 static int VID_WndProc( void *wnd, int ev, int p1, int p2 )
 {
-	display = wnd;
 	return 0;
 }
 
@@ -35,8 +31,6 @@ static int VID_WndProc( void *wnd, int ev, int p1, int p2 )
 int VID_Sys_Init( int x, int y, int width, int height, qboolean fullScreen, qboolean wideScreen, qboolean verbose )
 {
 	extern cvar_t *vid_parentwid;
-  
-	display = NULL;
   
 	return R_Init( NULL, NULL, (void *)(strtol( vid_parentwid->string, NULL, 0 )), 
                 x, y, width, height, fullScreen, wideScreen, verbose );
