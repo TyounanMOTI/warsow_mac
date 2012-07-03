@@ -46,7 +46,9 @@ rserr_t GLimp_SetMode( int x, int y, int width, int height, qboolean fullscreen,
 		return rserr_invalid_mode;
 	}
    */
-	colorbits = r_colorbits->integer;
+
+	if( r_colorbits->integer == 16 || r_colorbits->integer == 24 ) colorbits = r_colorbits->integer;
+	else colorbits = 0;
 
 #ifdef VIDEOMODE_HACK
 	/*
