@@ -507,7 +507,7 @@
 		9D2521F815A07BC7001CE46F /* r_backend_glsl.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D2521F615A07BC6001CE46F /* r_backend_glsl.c */; };
 		9D2521FB15A07C05001CE46F /* r_vbo.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D2521FA15A07C05001CE46F /* r_vbo.c */; };
 		9D25225815A08FC3001CE46F /* unix_xpm.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D25225715A08FC3001CE46F /* unix_xpm.c */; };
-		9D25226315A09B5B001CE46F /* mac_vid.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D25226215A09B5B001CE46F /* mac_vid.c */; };
+		9D25226315A09B5B001CE46F /* mac_vid.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D25226215A09B5B001CE46F /* mac_vid.m */; };
 		9D25226615A0A1C1001CE46F /* basewsw in basewsw pk3 */ = {isa = PBXBuildFile; fileRef = 9D25226515A0A1BE001CE46F /* basewsw */; };
 		9D25226D15A0A897001CE46F /* Rocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D2521E8159F744B001CE46F /* Rocket.framework */; };
 		9D25226F15A0A8AE001CE46F /* libcurl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D251E4C159F5B00001CE46F /* libcurl.framework */; };
@@ -1178,7 +1178,7 @@
 		9D2521F915A07BD2001CE46F /* iqm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iqm.h; sourceTree = "<group>"; };
 		9D2521FA15A07C05001CE46F /* r_vbo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = r_vbo.c; sourceTree = "<group>"; };
 		9D25225715A08FC3001CE46F /* unix_xpm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unix_xpm.c; sourceTree = "<group>"; };
-		9D25226215A09B5B001CE46F /* mac_vid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mac_vid.c; sourceTree = "<group>"; };
+		9D25226215A09B5B001CE46F /* mac_vid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mac_vid.m; sourceTree = "<group>"; };
 		9D25226515A0A1BE001CE46F /* basewsw */ = {isa = PBXFileReference; lastKnownFileType = folder; name = basewsw; path = ../../basewsw; sourceTree = "<group>"; };
 		9D2522A815A0AE8E001CE46F /* png.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = png.framework; path = Frameworks/png.framework; sourceTree = "<group>"; };
 		9DA731D715A1C46D00910C34 /* Theora.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Theora.framework; path = Frameworks/Theora.framework; sourceTree = "<group>"; };
@@ -1590,7 +1590,7 @@
 				28A721680F5DEAA0006FB1A8 /* mac_qgl.c */,
 				28A721690F5DEAA0006FB1A8 /* SDLMain.h */,
 				28A7216A0F5DEAA0006FB1A8 /* SDLMain.m */,
-				9D25226215A09B5B001CE46F /* mac_vid.c */,
+				9D25226215A09B5B001CE46F /* mac_vid.m */,
 			);
 			name = mac;
 			sourceTree = "<group>";
@@ -2462,7 +2462,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "rsync -vaz --exclude=.svn /$TARGET_BUILD_DIR/../../../../../../../../datasvn/warsow/data/warsow/basewsw/ \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/basewsw/\"\necho \"seta vid_fullscreen 0\" > $TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/basewsw/autoexec.cfg";
+			shellScript = "rsync -vaz --exclude=.svn /$TARGET_BUILD_DIR/../../../../../../../../datasvn/warsow/data/warsow/basewsw/ \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/basewsw/\"\necho \"seta vid_fullscreen 0\" > $TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/basewsw/autoexec.cfg\necho \"seta vid_mode -2\" >> $TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/basewsw/autoexec.cfg";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -2784,7 +2784,7 @@
 				9D2521F415A07B55001CE46F /* mm_query.c in Sources */,
 				9D2521F515A07B55001CE46F /* mm_rating.c in Sources */,
 				9D25225815A08FC3001CE46F /* unix_xpm.c in Sources */,
-				9D25226315A09B5B001CE46F /* mac_vid.c in Sources */,
+				9D25226315A09B5B001CE46F /* mac_vid.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
