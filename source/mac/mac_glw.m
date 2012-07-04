@@ -27,6 +27,8 @@
 #include "../client/client.h"
 #include "mac_glw.h"
 
+void VID_NewWindow( int width, int height );
+
 glwstate_t glw_state = { NULL, qfalse };
 
 /**
@@ -97,32 +99,12 @@ rserr_t GLimp_SetMode( int x, int y, int width, int height, qboolean fullscreen,
 }
 
 /**
- * Get current videomode
- */
-
-int GLimp_GetCurrentMode( void )
-{
-	const SDL_VideoInfo *info = NULL;
-
-	info = SDL_GetVideoInfo();
-	if( !info )
-	{
-		Com_Printf( "Video query failed: %s\n", SDL_GetError() );
-		return -1;
-	}
-	Com_Printf( "SDL: Detected resolution %ix%i\n", info->current_w, info->current_h );
-
-	return VID_GetModeNum( info->current_w, info->current_h );
-}
-
-/**
  * Shutdown GLimp sub system.
  */
 void GLimp_Shutdown()
 {
 
 }
-
 
 /**
  * Initialize GLimp sub system.

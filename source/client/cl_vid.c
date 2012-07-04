@@ -153,7 +153,7 @@ qboolean VID_GetModeInfo( int *width, int *height, qboolean *wideScreen, int mod
 *
 * Find the best matching video mode for given width and height
 */
-int VID_GetModeNum( int width, int height )
+static int VID_GetModeNum( int width, int height )
 {
 	int i;
 	int dx, dy, dist;
@@ -190,7 +190,7 @@ static void VID_ModeList_f( void )
 /*
 ** VID_NewWindow
 */
-void VID_NewWindow( int width, int height )
+static void VID_NewWindow( int width, int height )
 {
 	viddef.width  = width;
 	viddef.height = height;
