@@ -29,6 +29,9 @@ typedef struct
 
 extern glwstate_t glw_state;
 
+extern cvar_t *vid_fullscreen;
+extern cvar_t *vid_multiscreen_head;
+
 #define VIDEOMODE_HACK
 
 #endif // __MAC_GLW_H_

@@ -155,14 +155,13 @@ void GLimp_BeginFrame( void )
 void GLimp_EndFrame( void )
 {
 	SDL_GL_SwapBuffers();
-	/*
+
 	if( vid_fullscreen->modified || ( vid_fullscreen->integer && vid_multiscreen_head->modified ) )
 	{
 		Cbuf_ExecuteText( EXEC_APPEND, "vid_restart\n");
 		vid_fullscreen->modified = qfalse;
 		vid_multiscreen_head->modified = qfalse;
 	}
-  */
 }
 
 
