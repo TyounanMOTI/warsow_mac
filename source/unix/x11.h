@@ -3,9 +3,7 @@
 #include <X11/keysym.h>
 #include <X11/cursorfont.h>
 
-#ifndef __APPLE__
 #include <X11/extensions/Xxf86dga.h>
-#endif
 #include <X11/extensions/xf86vmode.h>
 #include <X11/extensions/Xinerama.h>
 #include <X11/extensions/Xrandr.h>
