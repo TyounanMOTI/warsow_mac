@@ -117,7 +117,7 @@ int GLimp_Init( void *hinstance, void *wndproc, void *parenthWnd )
 	hinstance = NULL;
 	wndproc = NULL;
 	parenthWnd = NULL;
-//	vid_fullscreen->flags &= ~( CVAR_LATCH_VIDEO );
+	vid_fullscreen->flags &= ~( CVAR_LATCH_VIDEO );
 	Com_Printf( "Display initialization\n" );
 
 	const SDL_VideoInfo *info = NULL;
