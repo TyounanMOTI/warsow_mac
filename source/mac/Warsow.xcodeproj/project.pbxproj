@@ -2462,7 +2462,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "rsync -vaz --exclude=.svn /$TARGET_BUILD_DIR/../../../../../../../../datasvn/warsow/data/warsow/basewsw/ \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/basewsw/\"\necho \"seta vid_fullscreen 0\" > $TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/basewsw/autoexec.cfg\necho \"seta vid_mode -2\" >> $TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/basewsw/autoexec.cfg";
+			shellScript = "rsync -vaz --exclude=.svn /$TARGET_BUILD_DIR/../../../../../../../../datasvn/warsow/data/warsow/basewsw/ \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/basewsw/\"\necho \"seta vid_fullscreen 0\" > $TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/basewsw/autoexec.cfg\necho \"seta r_ignorehwgamma 1\" >> $TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/basewsw/autoexec.cfg";
 		};
 /* End PBXShellScriptBuildPhase section */
 
